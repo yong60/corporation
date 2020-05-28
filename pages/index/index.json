@@ -1,0 +1,6 @@
+{
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
+}

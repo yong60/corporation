@@ -5,13 +5,47 @@
     "pages/no1/no1",
     "pages/no2/no2",
     "pages/no3/no3",
-    "pages/no4/no4"
+    "pages/no4/no4",
+    "pages/wo1/wo1",
+    "pages/wo2/wo2"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "images/home1.png",
+        "selectedIconPath": "images/home2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/act1.png",
+        "selectedIconPath": "images/act2.png",
+        "pagePath": "pages/no2/no2",
+        "text": "活动"
+      },
+      {
+        "iconPath": "images/chat1.png",
+        "selectedIconPath": "images/chat2.png",
+        "pagePath": "pages/no3/no3",
+        "text": "社群"
+      },
+      {
+        "iconPath": "images/u1.png",
+        "selectedIconPath": "images/u2.png",
+        "pagePath": "pages/no4/no4",
+        "text": "我的"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

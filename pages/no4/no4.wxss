@@ -1,1 +1,37 @@
 /* pages/no4/no4.wxss */
+.head-height {
+  height: 240rpx;
+}
+ 
+.head {
+  display:flex;
+  width: 100%;
+  background-color: #15c261;
+  align-items: center;
+}
+ 
+.login-button {
+  opacity: 0; 
+  width: 100%;
+  position: fixed;
+}
+ 
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+ 
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 30rpx;
+  border-radius: 50%;
+}
+ 
+.userinfo-nickname {
+  color: #333333;
+  font-size: 42rpx;
+}

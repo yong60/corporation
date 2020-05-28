@@ -1,6 +1,6 @@
 {
-  "useExtendedLib": {
-    "kbone": true,
-    "weui": true
-  }
+  "usingComponents": {
+
+  },
+  "enablePullDownRefresh": true
 }

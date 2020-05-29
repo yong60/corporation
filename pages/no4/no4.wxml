@@ -13,4 +13,5 @@
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       </view>
     </block>
+    <view>hello</view>
   </view>

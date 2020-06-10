@@ -7,7 +7,10 @@
     "pages/no3/no3",
     "pages/no4/no4",
     "pages/wo1/wo1",
-    "pages/wo2/wo2"
+    "pages/wo2/wo2",
+    "pages/xsh/xsh",
+    "pages/xxjs/xxjs",
+    "pages/tw/tw"
   ],
   "window": {
     "backgroundTextStyle": "light",

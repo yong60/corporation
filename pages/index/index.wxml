@@ -1,4 +1,13 @@
 <!--index.wxml-->
 <view>
-  hello
+校内社团介绍：
 </view>
+<navigator url="../xsh/xsh" >
+通信学院学生会
+</navigator>
+<navigator url="../tw/tw" >
+通信学院团委
+</navigator>
+<navigator url="../xxjs/xxjs" >
+信息技术协会
+</navigator>

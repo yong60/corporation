@@ -1,5 +1,76 @@
-.container{margin: 50rpx}
-view{margin-bottom: 30rpx}
-input{width: 600rpx;margin-top: 10rpx;border-bottom: 2rpx solid #ccc}
-label{display: block;margin: 8rpx}
-textarea{width: 600rpx;height: 100rpx;margin-top: 10rpx;border: 2rpx solid #eee}
+page {
+  background-color: #f5f5f5;
+}
+
+.activity {
+  background-color: white;
+  width: 750rpx;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.activity .activity_form {
+  /* background-color: green; */
+  width: 710rpx;
+  padding: 5rpx 20rpx 0rpx;
+}
+
+.activity .activity_form .activity_form_input {
+  padding: 20rpx;
+  /* background-color: lightyellow; */
+  display: flex;
+  align-content: center;
+  border-top: 1px solid lightgray;
+}
+
+.activity .activity_form .activity_form_input input {
+  background: white;
+  height: 35rpx;
+  width: 80%;
+  font-size: 30rpx;
+  align-content: center;
+  /* border-bottom: 1px solid gray; */
+}
+
+.activity .activity_form .activity_form_input text {
+  font-size: 30rpx;
+  align-content: center;
+}
+
+.activity .activity_form .activity_form_input textarea {
+  width: 680rpx;
+  background: white;
+  border: 1px solid lightgray;
+  margin: 20rpx 0rpx 0rpx;
+}
+
+.activity .activity_form .activity_form_input textarea .activity_form_input_hobbit_placeholder{
+font-size: 30rpx;
+color: gray;
+}
+
+.activity .activity_form .activity_form_input radio-group {
+  height: 30rpx;
+  font-size: 30rpx;
+}
+
+.activity .activity_form .activity_form_input label {
+  height: 30rpx;
+  font-size: 30rpx;
+}
+
+.activity .activity_form .activity_form_add_button {
+  /* background: red; */
+  width: 100%;
+  position: fixed;
+  bottom: 30rpx;
+}
+
+.activity .activity_form .activity_form_add_button .activity_form_button {
+  margin-top: 30rpx;
+  width: 80%;
+  background: linear-gradient(270deg, rgb(1, 247, 255) 0%, rgb(0, 252, 197) 100%);
+  color: #fff;
+}

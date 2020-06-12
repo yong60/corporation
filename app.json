@@ -1,7 +1,5 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/no1/no1",
     "pages/no2/no2",
     "pages/no3/no3",
@@ -11,6 +9,7 @@
     "pages/xsh/xsh",
     "pages/xxjs/xxjs",
     "pages/tw/tw",
+    "pages/logs/logs",
     "pages/modify/modify"
   ],
   "window": {
@@ -28,7 +27,7 @@
       {
         "iconPath": "images/home1.png",
         "selectedIconPath": "images/home2.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/no1/no1",
         "text": "首页"
       },
       {

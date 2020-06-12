@@ -8,3 +8,35 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.introduction_title{
+  margin: 5rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35rpx;
+}
+
+.introduction_department{
+  padding: 5rpx 20rpx;
+  font-weight: bold;
+  font-size: 33rpx;
+  margin-top: 10rpx;
+}
+
+.introduction_text {
+  padding: 10rpx;
+  font-size: 30rpx;
+  /* line-height: 35rpx; */
+}
+
+.introduction_extext {
+  padding: 20rpx;
+  font-size: 30rpx;
+  font-style: italic;
+}
+
+.introction_images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

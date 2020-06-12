@@ -1,6 +1,5 @@
 {
-  "usingComponents": {
-
-  },
-  "enablePullDownRefresh": true
+  "usingComponents": {},
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "校内社团介绍"
 }

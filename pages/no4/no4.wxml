@@ -14,3 +14,12 @@
       </view>
     </block>
   </view>
+ <navigator url="../wdst/wdst" >
+我的社团
+</navigator>
+ <navigator url="../person/person" >
+个人资料
+</navigator>
+ <navigator url="../xsh/xsh" >
+退出登录
+</navigator>

@@ -10,7 +10,8 @@
     "pages/wo2/wo2",
     "pages/xsh/xsh",
     "pages/xxjs/xxjs",
-    "pages/tw/tw"
+    "pages/tw/tw",
+    "pages/modify/modify"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,2 +1,40 @@
-<!--pages/no2/no2.wxml-->
-<text>pages/no2/no2.wxml</text>
+<view class="container">
+  <form bindsubmit="submit">
+    <view>
+    <text>姓名：</text>
+    <input name="name" value=""></input>
+    </view>
+    <view>
+    <text>班级：</text>
+    <input class="class" value=""></input>
+    </view>
+    <view>
+    <text>年龄：</text>
+    <input age="age" value=""></input>
+    </view>
+    <view>
+    <text>性别：</text>
+    <radio-group name="gender">
+      <label wx:for="{{gender}}" wx:key="value"> 
+      <radio value="{{item.value}}" />
+      {{item.name}}
+      </label>
+      </radio-group>
+    </view>
+    <view>
+      <text>意向部门：</text>
+      <checkbox-group name="skills">
+      <label wx:for="{{skills}}" wx:key="value">
+      <checkbox value="{{item.value}}" />
+      {{item.name}}
+      </label>
+      </checkbox-group>
+    </view>
+    <view>
+    <text>爱好：</text>
+    <textarea name="opinion" value="{{opinion}}" />
+    </view>
+    <button form-type="submit">提交</button>
+    </form>
+    </view>
+

@@ -1,52 +1,59 @@
 <view class="activity">
 
-  <form class="activity_form" bindsubmit="submit">
+  <form bindsubmit="submit">
+    <view class="activity_form">
+      <view class="activity_form_title">调查问卷</view>
 
-    <view class="activity_form_input">
-      <text>姓名：</text>
-      <input name="name" value=""></input>
-    </view>
-
-    <view class="activity_form_input">
-      <text>班级：</text>
-      <input class="class" value=""></input>
-    </view>
-
-    <view class="activity_form_input">
-      <text>年龄：</text>
-      <input age="age" value=""></input>
-    </view>
-
-    <view class="activity_form_input">
-      <text>性别：</text>
-      <radio-group name="gender">
-        <label wx:for="{{gender}}" wx:key="value">
-          <radio value="{{item.value}}" /> {{item.name}}
-        </label>
-      </radio-group>
-    </view>
-
-    <view class="activity_form_input">
-      <text>意向部门：</text>
-      <checkbox-group name="skills">
-        <label wx:for="{{skills}}" wx:key="value">
-          <checkbox value="{{item.value}}" /> {{item.name}}
-        </label>
-      </checkbox-group>
-    </view>
-
-    <view class="activity_form_input">
-    <view class="activity_form_input_hobbit"> 
-      <text>爱好：</text>
-      <textarea placeholder="请写下你的爱好" placeholder-class="activity_form_input_hobbit_placeholder" name="opinion" value="{{opinion}}" />
+      <view class="activity_form_input">
+        <text>姓名：</text>
+        <input name="name" value="" placeholder="请输入姓名" placeholder-class="activity_form_input_input_placeholder"></input>
       </view>
+
+      <view class="activity_form_input">
+        <text>班级：</text>
+        <input class="class" value="" placeholder="请输入班级" placeholder-class="activity_form_input_input_placeholder"></input>
+      </view>
+
+      <view class="activity_form_input">
+        <text>年龄：</text>
+        <input age="age" value="" placeholder="请输入年龄" placeholder-class="activity_form_input_input_placeholder"></input>
+      </view>
+
+      <view class="activity_form_input">
+        <text>性别：</text>
+        <radio-group name="gender">
+          <label wx:for="{{gender}}" wx:key="value">
+            <radio value="{{item.value}}" /> {{item.name}}
+          </label>
+        </radio-group>
+      </view>
+
+      <view class="activity_form_input">
+        <text>意向部门：</text>
+        <checkbox-group name="skills">
+          <label wx:for="{{skills}}" wx:key="value">
+            <checkbox value="{{item.value}}" /> {{item.name}}
+          </label>
+        </checkbox-group>
+      </view>
+
+      <view class="activity_form_input">
+        <view class="activity_form_input_hobbit">
+          <text>爱好：</text>
+          <textarea class="activity_form_input_hobbit_textarea" placeholder="请写下你的爱好" placeholder-class="activity_form_input_hobbit_placeholder" name="opinion" maxlength='300' value="{{opinion}}" bindinput='limit' />
+          <!-- 显示字数 -->
+          <text style="color: #ccc; font-size: 25rpx; float: right; margin-right: 2%;">{{current}} / {{max}} </text>
+        </view>
+      </view>
+
+      <view class="blank"></view>
+
+      <!-- 提交按钮 -->
+      <view class='activity_form_add_button'>
+        <button class="activity_form_button" type="primary" form-type="submit">提交</button>
+      </view>
+
     </view>
-
-    <view class='activity_form_add_button'>
-      <button class="activity_form_button" type="primary" form-type="submit">提交</button>
-    </view>
-
-
   </form>
 
 </view>

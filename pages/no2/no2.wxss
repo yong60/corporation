@@ -11,66 +11,82 @@ page {
   align-items: center; */
 }
 
-.activity .activity_form {
+.activity form .activity_form {
   /* background-color: green; */
-  width: 710rpx;
-  padding: 5rpx 20rpx 0rpx;
+  width: 670rpx;
+  padding: 5rpx 40rpx 0rpx;
 }
 
-.activity .activity_form .activity_form_input {
-  padding: 20rpx;
+.activity form  .activity_form .activity_form_title {
+  font-size: 38rpx;
+  font-weight: bolder;
+  text-align: center;
+  margin: 30rpx;
+}
+
+.activity form  .activity_form .activity_form_input {
+  padding: 30rpx 0rpx;
   /* background-color: lightyellow; */
   display: flex;
   align-content: center;
   border-top: 1px solid lightgray;
 }
 
-.activity .activity_form .activity_form_input input {
-  background: white;
+.activity form  .activity_form .activity_form_input input {
+  /* background: red; */
   height: 35rpx;
-  width: 80%;
+  width: 520rpx;
   font-size: 30rpx;
   align-content: center;
   /* border-bottom: 1px solid gray; */
 }
 
-.activity .activity_form .activity_form_input text {
+.activity form  .activity_form .activity_form_input input .activity_form_input_input_placeholder {
+  font-size: 30rpx;
+}
+
+.activity form  .activity_form .activity_form_input text {
+  /* background: green; */
   font-size: 30rpx;
   align-content: center;
+  width: 150rpx;
 }
 
-.activity .activity_form .activity_form_input textarea {
-  width: 680rpx;
+.activity form  .activity_form .activity_form_input textarea {
+  width: 640rpx;
   background: white;
-  border: 1px solid lightgray;
-  margin: 20rpx 0rpx 0rpx;
+  /* border: 1px solid lightgray; */
+  margin: 30rpx 40rpx 0rpx 20rpx;
+  font-size: 30rpx;
 }
 
-.activity .activity_form .activity_form_input textarea .activity_form_input_hobbit_placeholder{
-font-size: 30rpx;
-color: gray;
+.activity form  .activity_form .activity_form_input textarea .activity_form_input_hobbit_placeholder {
+  font-size: 30rpx;
+  color: gray;
+  padding: 10rpx;
 }
 
-.activity .activity_form .activity_form_input radio-group {
+.activity form  .activity_form .activity_form_input radio-group {
   height: 30rpx;
   font-size: 30rpx;
 }
 
-.activity .activity_form .activity_form_input label {
+.activity form  .activity_form .activity_form_input label {
   height: 30rpx;
   font-size: 30rpx;
 }
 
-.activity .activity_form .activity_form_add_button {
+.activity form  .activity_form .activity_form_add_button {
   /* background: red; */
-  width: 100%;
+  width: 670rpx;
   position: fixed;
   bottom: 30rpx;
+  /* padding: 0rpx 40rpx  */
 }
 
-.activity .activity_form .activity_form_add_button .activity_form_button {
+.activity form  .activity_form .activity_form_add_button .activity_form_button {
   margin-top: 30rpx;
-  width: 80%;
+  /* width: 540rpx; */
   background: linear-gradient(270deg, rgb(1, 247, 255) 0%, rgb(0, 252, 197) 100%);
   color: #fff;
 }

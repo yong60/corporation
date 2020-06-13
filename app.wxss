@@ -40,3 +40,7 @@
   flex-direction: row;
   justify-content: center;
 }
+
+.blank {
+  height: 500rpx;
+}

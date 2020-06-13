@@ -1,18 +1,39 @@
-const app = getApp()
+// pages/modify/modify.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    username:'',
+    grade:'电信1802',
+    love:'',
+    gender:'男',
 
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    this.setData({
+      username: decodeURIComponent(options.username),
+      grade: decodeURIComponent(options.grade),
+      love: decodeURIComponent(options.love),
+      gender: decodeURIComponent(options.gender),
+    })
+  },
 
+  formSubmit:function(e){
+    var formData = e.detail.value
+    var pages = getCurrentPages()
+    var prePage = pages[pages.length - 2]
+    prePage.setData({
+      username:formData.username,
+      grade: formData.grade,
+      love: formData.love,
+      gender:formData.gender,
+
+    })
   },
 
   /**

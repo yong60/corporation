@@ -1,0 +1,32 @@
+<form bindsubmit="formSubmit" report-submit="true">
+<view class="section">
+<view class="section-title">姓名：</view>
+<view>
+<input type="text" name="username" value="{{username}}" placeholder="请输入姓名"></input>
+</view>
+</view>
+<view class="section">
+<view class="section-title">爱好：</view>
+<view>
+<input type="text" name="love" value="{{love}}" placeholder="请输入您的爱好"></input>
+</view>
+</view>
+<view class="section">
+<view class="section-title">班级：</view>
+<view>
+<input type="text" name="grade" value="{{grade}}" placeholder="请输入班级"></input>
+</view>
+</view>
+<view class="section">
+<view class="section-title">性别：</view>
+<view>
+<radio-group name="gender">
+<label><radio value="男" checked="{{gender==='男'?'checked':''}}" />男
+</label>
+<label><radio value="女" checked="{{gender==='女'?'checked':''}}" />女
+</label>
+</radio-group>
+</view>
+</view>
+<button formType="submit" type="primary">保存</button>
+</form>

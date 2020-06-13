@@ -1,25 +1,40 @@
 <!--pages/no4/no4.wxml-->
-  <view class='head head-height'>
-    <block wx:if="{{!hasUserInfo && canIUse}}">
-      <view class="userinfo">
-        <image class="userinfo-avatar" src="../../images/unknown.png" mode="cover"></image>
-        <text class="userinfo-nickname">未知用户</text>
-      </view>
-      <button class="login-button head-height" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    </block>
-    <block wx:else>
-      <view class="userinfo">
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </view>
-    </block>
-  </view>
- <navigator url="../wdst/wdst" >
-我的社团
-</navigator>
- <navigator url="../person/person" >
-个人资料
-</navigator>
- <navigator url="../xsh/xsh" >
-退出登录
-</navigator>
+<view class='head head-height'>
+
+  <block wx:if="{{!hasUserInfo && canIUse}}">
+    <view class="userinfo">
+      <image class="userinfo-avatar" src="../../images/unknown.png" mode="cover"></image>
+      <text class="userinfo-nickname">未知用户</text>
+    </view>
+    <button class="login-button head-height" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  </block>
+
+  <block wx:else>
+    <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </block>
+
+</view>
+
+
+<view class="my_information">
+  <navigator class="my_information_item" url="../wdst/wdst">
+    <view>我的社团</view>
+    <image class="index_item_icon" mode="scaleToFill" src="../../images/arrow-drop-right-line.png" />
+  </navigator>
+
+
+  <navigator class="my_information_item" url="../person/person">
+    <view>个人资料</view>
+    <image class="index_item_icon" mode="scaleToFill" src="../../images/arrow-drop-right-line.png" />
+  </navigator>
+</view>
+
+
+<view class="my_loginout">
+  <navigator class="my_loginout_item" url="../xsh/xsh">
+    <text>退出登录</text>
+  </navigator>
+</view>

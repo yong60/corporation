@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "个人中心"
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "个人中心",
+  "navigationBarBackgroundColor": "#f5f5f5",
+  "backgroundColor": "#f5f5f5"
 }

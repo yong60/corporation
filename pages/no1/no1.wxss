@@ -10,7 +10,6 @@ page {
   text-align: center;
   font-size: 38rpx;
   margin: 20rpx 0rpx;
-
 }
 
 .index_item {
@@ -19,10 +18,10 @@ page {
   font-size: 40rpx;
   display: flex;
   margin: 10rpx 20rpx;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
-.index_item_icon {
+.index_item .index_item_icon {
   /* background: red; */
   width: 50rpx;
   height: 50rpx;

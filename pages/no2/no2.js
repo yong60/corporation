@@ -1,6 +1,8 @@
 Page({
   //页面的初始数据
   data: {
+    current: 0,   //文本框当前字数
+    max: 300, //文本框字数最大值
     name: '',
     class: '',
     age: '',
@@ -56,6 +58,18 @@ Page({
   },
 
 
-  //测试
+  // 文本框字数限制
+  limit: function (e) {
+    var value = e.detail.value;
+    var length = parseInt(value.length);
+
+    if (length > this.data.noteMaxLen) {
+      return;
+    }
+
+    this.setData({
+      current: length
+    });
+  },
 
 })

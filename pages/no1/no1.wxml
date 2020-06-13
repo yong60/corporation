@@ -1,16 +1,17 @@
 <!--index.wxml-->
 
-<view class="index_item">
+<view class="index_title">校内社团介绍</view>
+<navigator url="../xsh/xsh"  class="index_item">
 <image class="index_item_icon" src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg"/>
-<navigator url="../xsh/xsh" >通信学院学生会</navigator>
-</view>
+<view>通信学院学生会</view>
+</navigator>
 
-<view class="index_item">
+<navigator class="index_item" url="../tw/tw">
 <image class="index_item_icon" src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg"/>
-<navigator url="../tw/tw" >通信学院团委</navigator>
-</view>
+<view>通信学院团委</view>
+</navigator>
 
-<view class="index_item">
+<navigator url="../xxjs/xxjs"  class="index_item">
 <image class="index_item_icon" src="https://s1.ax1x.com/2020/06/10/toJV2T.jpg"/>
-<navigator url="../xxjs/xxjs" >信息技术协会</navigator>
-</view>
+<view>信息技术协会</view>
+</navigator>

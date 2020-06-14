@@ -90,3 +90,49 @@ page {
   background: linear-gradient(270deg, rgb(1, 247, 255) 0%, rgb(0, 252, 197) 100%);
   color: #fff;
 }
+
+
+.press {
+  margin-top: 20rpx;
+  width: 80%;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pressimg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.press::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+
+.swiper-tab{  
+  width: 100%;  
+  border-bottom: 2rpx solid #777777;  
+  text-align: center;  
+  line-height: 80rpx;}  
+.swiper-tab-list{  font-size: 30rpx;  
+  display: inline-block;  
+  width: 33.33%;  
+  color: #777777;  
+}  
+.on{ color: #da7c0c;  
+  border-bottom: 5rpx solid #da7c0c;}  
+
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+.swiper-box view{  
+  text-align: center;  
+}  
+
+
+

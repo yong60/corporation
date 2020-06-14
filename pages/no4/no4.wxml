@@ -1,6 +1,5 @@
 <!--pages/no4/no4.wxml-->
 <view class='head head-height'>
-
   <block wx:if="{{!hasUserInfo && canIUse}}">
     <view class="userinfo">
       <image class="userinfo-avatar" src="../../images/unknown.png" mode="cover"></image>
@@ -32,9 +31,3 @@
   </navigator>
 </view>
 
-
-<view class="my_loginout">
-  <navigator class="my_loginout_item" url="../xsh/xsh">
-    <text>退出登录</text>
-  </navigator>
-</view>

@@ -1,18 +1,33 @@
 <!--index.wxml-->
 
+<view>
+  <!--顶部轮播图  -->
+  <swiper indicator-dots="true" autoplay="true" interval='5000' indicator-active-color="red" circular="true">
+    <swiper-item>
+      <image class='top-img' src='https://www.toilet-mis.cn/images/lun1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='https://www.toilet-mis.cn/images/lun2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='https://www.toilet-mis.cn/images/lun3.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+
 <view class="index_title">校内社团介绍</view>
 
 <navigator url="../xsh/xsh" class="index_item">
-  <image class="index_item_icon" src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg" />
+  <image class="index_item_icon" src="https://www.toilet-mis.cn/images/no1.jpg" />
   <view>通信学院学生会</view>
 </navigator>
 
 <navigator class="index_item" url="../tw/tw">
-  <image class="index_item_icon" src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg" />
+  <image class="index_item_icon" src="https://www.toilet-mis.cn/images/no3.png" />
   <view>通信学院团委</view>
 </navigator>
 
 <navigator class="index_item" url="../xxjs/xxjs">
-  <image class="index_item_icon" src="https://s1.ax1x.com/2020/06/10/toJV2T.jpg" />
+  <image class="index_item_icon" src="https://www.toilet-mis.cn/images/no2.jpg" />
   <view>信息技术协会</view>
 </navigator>

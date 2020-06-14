@@ -1,7 +1,7 @@
 /* pages/no4/no4.wxss */
 
 page {
-  background: #f5f5f5;
+  background: white;
 }
 
 .head-height {
@@ -46,7 +46,6 @@ page {
 }
 
 .my_information .my_information_item {
-  /* background: yellowgreen; */
   width: 100%;
   display: flex;
   font-size: 30rpx;
@@ -67,25 +66,15 @@ page {
   padding: 20rpx 10rpx;
 }
 
-.my_loginout {
-  margin: 20rpx 0rpx;
-  /* background: yellowgreen; */
-  background: white;
-}
-
-.my_loginout .my_loginout_item {
-  /* background: blue; */
-  width: 100%;
-  display: flex;
-  font-size: 30rpx;
-  border-bottom: 1px solid #f5f5f5;
-  text-align: center;
-}
-
-.my_loginout .my_loginout_item text {
-  /* background: blue; */
-  width: 100%;
-  padding: 30rpx 0rpx 40rpx 0rpx;
-  color: red;
-  font-weight: bold;
+.golang {
+  vertical-align: top;
+  height: 42px;
+  line-height: 42px;
+  width: 158px;
+  color: #2194E0;
+  border: 1px solid #2194E0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
 }

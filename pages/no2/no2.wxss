@@ -83,15 +83,12 @@ page {
   bottom: 30rpx;
   /* padding: 0rpx 40rpx  */
 }
-
 .activity form  .activity_form .activity_form_add_button .activity_form_button {
   margin-top: 30rpx;
   /* width: 540rpx; */
   background: linear-gradient(270deg, rgb(1, 247, 255) 0%, rgb(0, 252, 197) 100%);
   color: #fff;
 }
-
-
 .press {
   margin-top: 20rpx;
   width: 80%;
@@ -110,26 +107,24 @@ page {
   width: 46rpx;
   height: 46rpx;
 }
-
 .press::after {
   border-radius: 98rpx;
   border: 0; 
 }
-
 .swiper-tab{  
   width: 100%;  
   border-bottom: 2rpx solid #777777;  
   text-align: center;  
-  line-height: 80rpx;}  
-.swiper-tab-list{  font-size: 30rpx;  
-  display: inline-block;  
-  width: 33.33%;  
-  color: #777777;  
-}  
+  line-height: 80rpx;} 
+  .swiper-tab-list{  font-size: 30rpx;  
+    display: inline-block;  
+    width: 33.33%;  
+    color: #777777;  
+  }  
 .on{ color: #da7c0c;  
   border-bottom: 5rpx solid #da7c0c;}  
 
-.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+  .swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; } 
 .swiper-box view{  
   text-align: center;  
 }  

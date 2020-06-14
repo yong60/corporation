@@ -11,7 +11,6 @@ page {
   font-size: 58rpx;
   margin: 20rpx 0rpx;
 }
-
 .index_item {
   background: white;
   padding: 35rpx 20rpx 30rpx;
@@ -26,4 +25,9 @@ page {
   width: 50rpx;
   height: 50rpx;
   margin: 0rpx 40rpx 0rpx 20rpx;
+}
+
+.t-swiper image 
+{
+  width:100%;
 }

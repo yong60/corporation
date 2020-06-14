@@ -1,19 +1,18 @@
 <!--index.wxml-->
+  <swiper class="t-swiper"indicator-dots="{{indicatorDots}}"indicator-active-color="{{color}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:{{height}}">
+  <block wx:for="{{img}}" wx:key="">
+    <swiper-item>
+      <image class='top-img' src='https://www.toilet-mis.cn/images/lun1.jpg' mode="widthFix" bindload='goheight'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='https://www.toilet-mis.cn/images/lun2.jpg' mode="widthFix" bindload='goheight'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='top-img' src='https://www.toilet-mis.cn/images/lun3.jpg' mode="widthFix" bindload='goheight'></image>
+    </swiper-item>
+   </block>
+</swiper>
 
-<view>
-  <!--顶部轮播图  -->
-  <swiper indicator-dots="true" autoplay="true" interval='5000' indicator-active-color="red" circular="true">
-    <swiper-item>
-      <image class='top-img' src='https://www.toilet-mis.cn/images/lun1.jpg'></image>
-    </swiper-item>
-    <swiper-item>
-      <image class='top-img' src='https://www.toilet-mis.cn/images/lun2.jpg'></image>
-    </swiper-item>
-    <swiper-item>
-      <image class='top-img' src='https://www.toilet-mis.cn/images/lun3.jpg'></image>
-    </swiper-item>
-  </swiper>
-</view>
 
 <view class="index_title">校内社团介绍</view>
 

@@ -17,8 +17,7 @@
 	<swiper-item>
 		<view>我是活动</view>
 	</swiper-item>
-
-	<swiper-item>
+ 	<swiper-item>
 		<view class="activity_form_button">
         <button class="press" form-type="submit" hover-class="plain-hover">
           <view>提交</view>
@@ -72,13 +71,10 @@
 							<!-- 显示字数 -->
           <text style="color: #ccc; font-size: 25rpx; float: right; margin-right: 2%;">{{current}} / {{max}} </text>
         </view>
-      </view>
-
-      <view class="activity_form_button">
-        <button class="press" form-type="submit" hover-class="plain-hover">
-          <view>提交</view>
-        </button>
-      </view>
+				<view class="activity_form_button">
+        <button class="press" form-type="submit" hover-class="plain-hover">提交</button>
+				</view>
+				</view>
     </view>
   </form>
 </view>

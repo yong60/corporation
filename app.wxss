@@ -1,5 +1,5 @@
 /**app.wxss**/
-
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
 
 
 .container {
@@ -12,39 +12,15 @@
   box-sizing: border-box;
 } 
 
-.introduction_title{
-  margin: 5rpx;
-  text-align: center;
+.weui-article__title {
   font-weight: bold;
-  font-size: 40rpx;
-  color: #535353;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.introduction_department{
-  padding: 5rpx 20rpx;
-  font-weight: bold;
-  font-size: 33rpx;
-  margin-top: 10rpx;
-}
-
-.introduction_text {
-  padding: 10rpx;
-  font-size: 30rpx;
-  /* line-height: 35rpx; */
 }
 
 .introduction_extext {
-  padding: 20rpx;
-  font-size: 30rpx;
-  font-style: italic;
+color: #b2b2b2;
 }
 
-.introction_images{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 
 .blank {
   height: 500rpx;

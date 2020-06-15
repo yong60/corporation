@@ -46,5 +46,41 @@ Page({
         hasUserInfo: true
       })
     }
-  }
+  },
+
+  userid:function(){
+    wx.login({
+      success (res) {
+        console.log(res.code)
+        if (res.code) {
+        //发起网络请求
+        wx.request({
+          url: 'https://www.toilet-mis.cn/login.php',
+          data: {
+            code: res.code
+          },
+          success(res){
+            console.log(res)
+          },
+          fail(res){
+            wx.showToast({
+              title: '登录失败',
+              icon: 'loading',
+              duration: 2000
+            })
+          }
+        })
+      }
+      else {
+        console.log('登录失败！' + res.errMsg)
+        wx.showToast({
+          title: '请尝试重新登录，否则可能影响您的使用',
+          icon: 'none',
+          duration: 2000
+        })
+      }
+    }
+  })
+  },
+
 })

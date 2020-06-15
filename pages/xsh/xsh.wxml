@@ -7,90 +7,86 @@
     <view class="weui-article__img">
       <image src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg"></image>
     </view>
+  </view>
 
-    <view class="weui-article__section">
-      <view class="introduction_extext weui-article__p">
-        19级的新生同学们你们好，这里是信息与通信工程学院第九届通信学生会，欢迎即将到来的你们！ 通信学生会是一个充满了欢笑、汗水、付出与收获的大家庭。在这里，通信学生会秉持着一切为了同学，为了同学的一切的理念。秋高气爽之时，组织同学们参与竞技体育活动—三球联赛、活跃大脑的校园辩论赛；大雪纷飞之时，为同学们准备一场温馨的跨年晚会；春暖花开之时，为同学们搭建一个放飞音乐梦想的平台、开展一场彰显青春与生命力的春季运动会；烈日炎炎之时，一起享受荧光夜跑的快乐、一起在校园文化艺术节上绽放大学生的风采......
-        这个大家庭中拥有着多个部门，每个部门都相互协作，共同完成各项精彩的活动。下面让我们看看各个部门的介绍吧
-      </view>
-      <view class="weui-article__section">
-        <view class="weui-article__title">外联部</view>
-        <view class="weui-article__section ">
-          <view class="weui-article__p ">
-            外联部作为一个为学生会的各项活动筹备发展资金的组织，很大程度上决定了整个学生会发展的极限，是一个可以看清自己以及充分发挥个人能力的组织。自古英雄出外联，这句话不是没有道理的，作为学生会唯一一个以学生为主体的外交组织，我们的角色可能会被不少人曲解；我们的付出，不一定能得到所有人的认可；我们接触到的圈子，需要处理的事务以及道路上的困难绝对不会一眼就能看到底，但是，只有优秀到一定程度的组织才能时刻四平八稳不畏流言蜚语，加入外联，和我们一起成就出色的你！！
-          </view>
-
-          <view class="weui-article__section ">
-            <view class="weui-article__title ">女生部</view>
-            <view class="weui-article__section ">
-              <view class="weui-article__p ">
-                女生部主要负责学院会议和活动的礼仪工作如引导、颁奖等，主办“有些话，我想对你说”、“3.7 女生节”等契合女生部主题的暖心活动。男生女生都可以加入的！小同学康康女生部吧，好看的小姐姐和小哥哥都在期待你们到来哦～
-              </view>
-
-              <view class="weui-article__section ">
-                <view class="weui-article__title ">学习部</view>
-                <view class="weui-article__section ">
-                  <view class="weui-article__p ">
-                    学习部主要组织一些提高自身文化素养，发散自身思维的活动，还会做一些有趣的小游戏来丰富我们的课余生活。无论你是不苟言笑的人，还是可以谈笑风生的人，都能在学习部寻找到自己的归属。学习部是你能发掘自己潜力的地方，学习部能让你成长！
-                  </view>
-
-                  <view class="weui-article__section ">
-                    <view class="weui-article__title ">体育部</view>
-                    <view class="weui-article__section ">
-                      <view class="weui-article__p ">
-                        体育部负责开展学校和学院的各项体育活动。例如每年都会举办的运动会、院足篮排三球联赛、乒乓球比赛等。旨在增强同学们的体魄，增强集体间凝聚力，享受运动带给每个人的快乐。同时，我们还将负责元旦晚会的剧务工作。在这里，我们会为大家搭建一个供大家大展拳脚的平台，用文字、口才和行动将你对体育的热爱传递给每一个人！更重要的是，你会收获欢乐，收获朋友，收获经验！此外，劳逸结合是最重要的。我们会组织大家参加各种聚会活动，增进彼此的感情。这么有意思的部门，快来报名体育部吧！
-                      </view>
-
-                      <view class="weui-article__section ">
-                        <view class="weui-article__title ">生活部</view>
-                        <view class="weui-article__section ">
-                          <view class="weui-article__p ">
-                            生活部主要负责为同学们开展晨跑夜跑、包饺子比赛这类有趣又贴近生活的活动，同时参与协助其他部门一起组织各类活动。生活部开展的活动都是以丰富学习生活为中心，在生活部，大家一起锻炼身体，丰富自己的课余生活，一起感受同学间的温暖情谊。 在生活部，我们会经常参与不同活动的前期准备及举办工作，所以，在这里你可以学习到很多东西，也能更好地与同学朋友相处、一起完成工作任务。
-                          </view>
-
-                          <view class="weui-article__section ">
-                            <view class="weui-article__title ">文艺部</view>
-                            <view class="weui-article__section ">
-                              <view class="weui-article__p ">
-                                文艺部负责的主要活动有元旦晚会和十佳歌手，主要工作是对这些活动进行节目审核、会场布置，并完善晚会的后勤工作。同学们加入文艺部可以打开脑洞，提出自己对这些活动的独特想法，让这些活动变得更有新意，更加出色！加入文艺部没有太多能力上的要求，但是大家只有端正态度，互相配合，才可以将活动成功举办，欢迎大家报名文艺部！
-                              </view>
-
-                              <view class="weui-article__section ">
-                                <view class="weui-article__title ">宣传部</view>
-
-                                <view class="weui-article__section ">
-                                  <view class="weui-article__p ">
-                                    宣传部会参与并通过各种渠道让全校了解学生会组织的各项活动。其中活动前海报的制作，期间照片拍摄、视频录制，后期修图、剪辑以及推送的制作，都离不开你们的辛勤工作哟~不要担心能力不够，只要你踏实肯干、不怕吃苦，就可以来试试呀~获得技能的同时说不定也会发现一个更有潜力的自己哦
-                                  </view>
-
-
-                                  <view class="weui-article__section ">
-                                    <view class="weui-article__title ">办公室</view>
-
-                                    <view class="weui-article__section ">
-                                      <view class="weui-article__p ">
-                                        办公室是学生会中的核心枢纽部门，在学生会中承担了极其重要的工作。对内，办公室不仅仅要负责学生会内部的相关制度和规则的起草，会内各项文件以及资料的收集和整理工作，各部门每次的例会记录，更要负责学生会内部成员间的联谊活动以及学生会本身的文化建设。对外，办公室需要与老师进行接触和沟通，在各类大型活动中，办公室需要充分发挥枢纽作用，在协调各部门之间工作的同时还需要与主席团进行沟通交流，以此使活动尽善尽美。 在办公室你学到的更多的是如何细致、高效、迅速的完成任务，如何在最短的时间内达到最好的效果，欢迎大家积极加入！
-                                      </view>
-
-
-
-                                    </view>
-                                  </view>
-                                </view>
-                              </view>
-                            </view>
-                          </view>
-                        </view>
-                      </view>
-                    </view>
-                  </view>
-                </view>
-              </view>
-            </view>
-          </view>
-        </view>
+  <view class="weui-article__section">
+    <view class="introduction_extext weui-article__p">
+      19级的新生同学们你们好，这里是信息与通信工程学院第九届通信学生会，欢迎即将到来的你们！ 通信学生会是一个充满了欢笑、汗水、付出与收获的大家庭。在这里，通信学生会秉持着一切为了同学，为了同学的一切的理念。秋高气爽之时，组织同学们参与竞技体育活动—三球联赛、活跃大脑的校园辩论赛；大雪纷飞之时，为同学们准备一场温馨的跨年晚会；春暖花开之时，为同学们搭建一个放飞音乐梦想的平台、开展一场彰显青春与生命力的春季运动会；烈日炎炎之时，一起享受荧光夜跑的快乐、一起在校园文化艺术节上绽放大学生的风采......
+      这个大家庭中拥有着多个部门，每个部门都相互协作，共同完成各项精彩的活动。下面让我们看看各个部门的介绍吧
+    </view>
+  </view>
+  <view class="weui-article__section">
+    <view class="weui-article__title">外联部</view>
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        外联部作为一个为学生会的各项活动筹备发展资金的组织，很大程度上决定了整个学生会发展的极限，是一个可以看清自己以及充分发挥个人能力的组织。自古英雄出外联，这句话不是没有道理的，作为学生会唯一一个以学生为主体的外交组织，我们的角色可能会被不少人曲解；我们的付出，不一定能得到所有人的认可；我们接触到的圈子，需要处理的事务以及道路上的困难绝对不会一眼就能看到底，但是，只有优秀到一定程度的组织才能时刻四平八稳不畏流言蜚语，加入外联，和我们一起成就出色的你！！
       </view>
     </view>
   </view>
 
+  <view class="weui-article__section ">
+    <view class="weui-article__title ">女生部</view>
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        女生部主要负责学院会议和活动的礼仪工作如引导、颁奖等，主办“有些话，我想对你说”、“3.7 女生节”等契合女生部主题的暖心活动。男生女生都可以加入的！小同学康康女生部吧，好看的小姐姐和小哥哥都在期待你们到来哦～
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-article__section ">
+    <view class="weui-article__title ">学习部</view>
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        学习部主要组织一些提高自身文化素养，发散自身思维的活动，还会做一些有趣的小游戏来丰富我们的课余生活。无论你是不苟言笑的人，还是可以谈笑风生的人，都能在学习部寻找到自己的归属。学习部是你能发掘自己潜力的地方，学习部能让你成长！
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-article__section ">
+    <view class="weui-article__title ">体育部</view>
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        体育部负责开展学校和学院的各项体育活动。例如每年都会举办的运动会、院足篮排三球联赛、乒乓球比赛等。旨在增强同学们的体魄，增强集体间凝聚力，享受运动带给每个人的快乐。同时，我们还将负责元旦晚会的剧务工作。在这里，我们会为大家搭建一个供大家大展拳脚的平台，用文字、口才和行动将你对体育的热爱传递给每一个人！更重要的是，你会收获欢乐，收获朋友，收获经验！此外，劳逸结合是最重要的。我们会组织大家参加各种聚会活动，增进彼此的感情。这么有意思的部门，快来报名体育部吧！
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-article__section ">
+    <view class="weui-article__title ">生活部</view>
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        生活部主要负责为同学们开展晨跑夜跑、包饺子比赛这类有趣又贴近生活的活动，同时参与协助其他部门一起组织各类活动。生活部开展的活动都是以丰富学习生活为中心，在生活部，大家一起锻炼身体，丰富自己的课余生活，一起感受同学间的温暖情谊。 在生活部，我们会经常参与不同活动的前期准备及举办工作，所以，在这里你可以学习到很多东西，也能更好地与同学朋友相处、一起完成工作任务。
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-article__section ">
+    <view class="weui-article__title ">文艺部</view>
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        文艺部负责的主要活动有元旦晚会和十佳歌手，主要工作是对这些活动进行节目审核、会场布置，并完善晚会的后勤工作。同学们加入文艺部可以打开脑洞，提出自己对这些活动的独特想法，让这些活动变得更有新意，更加出色！加入文艺部没有太多能力上的要求，但是大家只有端正态度，互相配合，才可以将活动成功举办，欢迎大家报名文艺部！
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-article__section ">
+    <view class="weui-article__title ">宣传部</view>
+
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        宣传部会参与并通过各种渠道让全校了解学生会组织的各项活动。其中活动前海报的制作，期间照片拍摄、视频录制，后期修图、剪辑以及推送的制作，都离不开你们的辛勤工作哟~不要担心能力不够，只要你踏实肯干、不怕吃苦，就可以来试试呀~获得技能的同时说不定也会发现一个更有潜力的自己哦
+      </view>
+    </view>
+  </view>
+
+
+  <view class="weui-article__section ">
+    <view class="weui-article__title ">办公室</view>
+    <view class="weui-article__section ">
+      <view class="weui-article__p ">
+        办公室是学生会中的核心枢纽部门，在学生会中承担了极其重要的工作。对内，办公室不仅仅要负责学生会内部的相关制度和规则的起草，会内各项文件以及资料的收集和整理工作，各部门每次的例会记录，更要负责学生会内部成员间的联谊活动以及学生会本身的文化建设。对外，办公室需要与老师进行接触和沟通，在各类大型活动中，办公室需要充分发挥枢纽作用，在协调各部门之间工作的同时还需要与主席团进行沟通交流，以此使活动尽善尽美。 在办公室你学到的更多的是如何细致、高效、迅速的完成任务，如何在最短的时间内达到最好的效果，欢迎大家积极加入！
+      </view>
+    </view>
+  </view>
+  
 </view>

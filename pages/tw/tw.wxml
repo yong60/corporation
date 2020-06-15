@@ -1,52 +1,59 @@
 <view class=" weui-article">
 
-    <view class="weui-article__section">
-      <view class="weui-article__h1">信息与通信工程学院团委介绍</view>
-        <view class="weui-article__section">
+
+  <view class="weui-article__h1">信息与通信工程学院团委介绍</view>
+
+  <view class="weui-article__section">
     <view class="weui-article__img">
-      <image src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg"></image>
+      <image src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg" />
     </view>
-      <view class="weui-article__section">
-        <view class="introduction_extext weui-article__p">通信团委全称为中国共青团北京信息科技大学信息与通信工程学院委员会，是在学院党委和上级团组织的领导下，围绕学院党团中心工作，结合团员青年特点，肩负团结青年、引领青年、服务青年职责的先进青年组织。通信学院团委负责学院共青团内工作, 负责全院共青团员的思想教育以及开展一系列团内活动包括评比优秀团员团干、优秀班集体，收缴团费等。以下是通信学院团委的干部和部门介绍。</view>
-        <view class="weui-article__section">
-          <view class="weui-article__img">
-            <image src="https://s1.ax1x.com/2020/06/10/to39bR.jpg"></image>
+  </view>
 
-            <view class="weui-article__section">
-              <view class="weui-article__title">实践部</view>
-              <view class="weui-article__section ">
-                <view class="weui-article__p "> 实践部的工作宗旨是促进广大团员青年投身社会实践，培养青年团员奉献精神和开创精神，以学以致用为原则,以拓展大学生素质为目的,为同学们提供认识社会、服务社会的实践平台,培养和提高同学们的社会实践能力,达到实践知行统一，负责各类团内活动的开展，和组织参与各类志愿公益活动。</view>
+  <view class="weui-article__section">
+    <view class="introduction_extext weui-article__p">通信团委全称为中国共青团北京信息科技大学信息与通信工程学院委员会，是在学院党委和上级团组织的领导下，围绕学院党团中心工作，结合团员青年特点，肩负团结青年、引领青年、服务青年职责的先进青年组织。通信学院团委负责学院共青团内工作, 负责全院共青团员的思想教育以及开展一系列团内活动包括评比优秀团员团干、优秀班集体，收缴团费等。以下是通信学院团委的干部和部门介绍。
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__img">
+        <image src="https://s1.ax1x.com/2020/06/10/to39bR.jpg" />
+      </view>
+    </view>
 
-                <view class="weui-article__section">
-                  <view class="weui-article__title">联络部</view>
-                  <view class="weui-article__section ">
-                    <view class="weui-article__p ">联络部主要负责分团委及各团组织与各班的联系，传达并发展各类学院与班级活动，增强团组织与各个基层班级的紧密联系，平时的工作分为两部分：一部分是将学院的通知第一时间告知给同学们；另一部分就是收发团内的各种文件材料。同时联络部也是负责联系学院和学生的一个非常重要的部门。</view>
+    <view class="weui-article__section">
+      <view class="weui-article__title">实践部</view>
+      <view class="weui-article__section ">
+        <view class="weui-article__p "> 实践部的工作宗旨是促进广大团员青年投身社会实践，培养青年团员奉献精神和开创精神，以学以致用为原则,以拓展大学生素质为目的,为同学们提供认识社会、服务社会的实践平台,培养和提高同学们的社会实践能力,达到实践知行统一，负责各类团内活动的开展，和组织参与各类志愿公益活动。
+        </view>
+      </view>
+    </view>
 
-                    <view class="weui-article__section">
-                      <view class="weui-article__title">宣传部</view>
-                      <view class="weui-article__section ">
-                        <view class="weui-article__p ">宣传部配合学院团委中心工作，积极开展学生思想教育工作，在宣传、教育工作中团结、引导和服务团员青年。便于信息更迅速、准确、广泛的向广大学生传播。是我院对外展示良好形象的窗口。平时的任务包括制作宣传海报，活动摄影以及制作推送。</view>
+    <view class="weui-article__section">
+      <view class="weui-article__title">联络部</view>
+      <view class="weui-article__section ">
+        <view class="weui-article__p ">联络部主要负责分团委及各团组织与各班的联系，传达并发展各类学院与班级活动，增强团组织与各个基层班级的紧密联系，平时的工作分为两部分：一部分是将学院的通知第一时间告知给同学们；另一部分就是收发团内的各种文件材料。同时联络部也是负责联系学院和学生的一个非常重要的部门。
+        </view>
+      </view>
+    </view>
 
-                        <view class="weui-article__section">
-                          <view class="weui-article__title">秘书处</view>
-                          <view class="weui-article__section ">
-                            <view class="weui-article__p ">团委秘书处是学院团委核心部门之一，是联络整个团委的纽带，起着沟通、协调内部各个部门的作用。是团委大家庭的“管家”，秘书部主要负责团委日常的办公事务，团委各种会议的通知、记录，落实例会决定。也同时负责团委的档案管理、工作记录，同时还负责起草团委的重要文案、拟定工作制度、收发文件等。</view>
+    <view class="weui-article__section">
+      <view class="weui-article__title">宣传部</view>
+      <view class="weui-article__section ">
+        <view class="weui-article__p ">宣传部配合学院团委中心工作，积极开展学生思想教育工作，在宣传、教育工作中团结、引导和服务团员青年。便于信息更迅速、准确、广泛的向广大学生传播。是我院对外展示良好形象的窗口。平时的任务包括制作宣传海报，活动摄影以及制作推送。
+        </view>
+      </view>
+    </view>
 
-                            <view class="weui-article__section">
-                              <view class="weui-article__title">组织部</view>
-                              <view class="weui-article__section ">
-                                <view class="weui-article__p ">组织部主要工作包括:团员信息统计、团费收缴、新入团及团籍补办、新生团关系转接、毕业生团关系转出、学生干部素质拓展训练、团知识竞赛，负责学院共青团员思想教育、组织建设，管理全院团员的考核、奖励、处分，同时组织开展各类团内的活动。</view>
-                              </view>
-                            </view>
-                          </view>
-                        </view>
-                      </view>
-                    </view>
-                  </view>
-                </view>
-              </view>
-            </view>
-          </view>
+    <view class="weui-article__section">
+      <view class="weui-article__title">秘书处</view>
+      <view class="weui-article__section ">
+        <view class="weui-article__p ">团委秘书处是学院团委核心部门之一，是联络整个团委的纽带，起着沟通、协调内部各个部门的作用。是团委大家庭的“管家”，秘书部主要负责团委日常的办公事务，团委各种会议的通知、记录，落实例会决定。也同时负责团委的档案管理、工作记录，同时还负责起草团委的重要文案、拟定工作制度、收发文件等。
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-article__section">
+      <view class="weui-article__title">组织部</view>
+      <view class="weui-article__section ">
+        <view class="weui-article__p ">组织部主要工作包括:团员信息统计、团费收缴、新入团及团籍补办、新生团关系转接、毕业生团关系转出、学生干部素质拓展训练、团知识竞赛，负责学院共青团员思想教育、组织建设，管理全院团员的考核、奖励、处分，同时组织开展各类团内的活动。
         </view>
       </view>
     </view>

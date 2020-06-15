@@ -1,19 +1,28 @@
-<view class="introction_images">
-<image src="https://www.toilet-mis.cn/images/act5.jpg"></image>
-</view>
+<view class=" weui-article">
+  <view class="weui-article__h1">阳光晨跑活动介绍</view>
 
-<view class="introduction_title">阳光晨跑活动介绍</view>
-<view class="introduction_text">
-阳光晨跑活动是通信学生会为了唤起学生锻炼身体、强健体魄的意识，鼓励同学们走出宿舍，告别懒惰，积极参加体育活动而举办。培养学生坚忍不拔的品质、毅力和恒心，展现出大学生的青春活力。从同学们脸上的笑容可以看到晨跑给他们带来的快乐，运动使人心情愉悦，使人体魄强健，让我们相约明天，继续奔跑。
-</view>
+  <view class="weui-article__section">
+    <view class="weui-article__img">
+      <image src="https://www.toilet-mis.cn/images/act5.jpg"></image>
+    </view>
+  </view>
 
-<view class="introduction_text">
-活动日期：2019.10.8-2019.12.8
-活动时间：早上6:00-7:30
-</view>
 
-<view class="introduction_text">
-活动主办方：通信学院学生会
-活动人数：60人左右
-</view>
+  <view class="weui-article__section">
+    <view class="weui-article__p ">
+      阳光晨跑活动是通信学生会为了唤起学生锻炼身体、强健体魄的意识，鼓励同学们走出宿舍，告别懒惰，积极参加体育活动而举办。培养学生坚忍不拔的品质、毅力和恒心，展现出大学生的青春活力。从同学们脸上的笑容可以看到晨跑给他们带来的快乐，运动使人心情愉悦，使人体魄强健，让我们相约明天，继续奔跑。
+    </view>
+  </view>
 
+  <view class="weui-article__section">
+    <view class="weui-article__p " style="color: gray">
+      活动日期：2019.10.8-2019.12.8 活动时间：早上6:00-7:30
+    </view>
+  </view>
+
+  <view class="weui-article__section">
+    <view class="weui-article__p " style="color: gray">
+      活动主办方：通信学院学生会 活动人数：60人左右
+    </view>
+  </view>
+</view>

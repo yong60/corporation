@@ -17,7 +17,7 @@
     "navigationBarBackgroundColor": "#0ef",
     "navigationBarTitleText": "社团助手",
     "navigationBarTextStyle": "black",
-    "navigationStyle":"default"
+    "navigationStyle": "default"
   },
   "tabBar": {
     "color": "#666666",
@@ -52,5 +52,9 @@
     ]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
 }

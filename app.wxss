@@ -1,4 +1,7 @@
 /**app.wxss**/
+
+
+
 .container {
   height: 100%;
   display: flex;
@@ -13,7 +16,9 @@
   margin: 5rpx;
   text-align: center;
   font-weight: bold;
-  font-size: 35rpx;
+  font-size: 40rpx;
+  color: #535353;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .introduction_department{

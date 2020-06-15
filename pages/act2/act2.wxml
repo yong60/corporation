@@ -1,19 +1,28 @@
-<view class="introction_images">
-<image src="https://www.toilet-mis.cn/images/act7.jpg"></image>
-</view>
+<view class=" weui-article">
 
-<view class="introduction_title">创客大赛活动介绍</view>
-<view class="introduction_text">
-创客大赛活动是通信学院为了鼓励学生们进行创新制作而举办的活动。“科技碰撞人文，智慧点燃青春”，新生创客们可以将想法与创意应用到了身边各种看似平常的物品：可以通过“刷脸”打开的宿舍门，躺在床上呼唤一声就会赶来的“垃圾桶”，能够自动追光、避障、唱歌的“智能盆栽”，嗨翻全场的“宿舍KTV”，还有关于智慧养殖、垃圾分类、快乐健身等许多创意作品。
-</view>
+  <view class="weui-article__section">
+    <view class="weui-article__img">
+      <image src="https://www.toilet-mis.cn/images/act7.jpg" />
+    </view>
+  </view>
 
-<view class="introduction_text">
-活动日期：2019.06.20
-活动时间：下午2:00-5:30
-</view>
+  <view class="weui-article__h1">创客大赛活动介绍</view>
 
-<view class="introduction_text">
-活动主办方：信息技术协会
-活动人数：40人左右
-</view>
+  <view class="weui-article__section ">
+    <view class="weui-article__p ">
+      创客大赛活动是通信学院为了鼓励学生们进行创新制作而举办的活动。“科技碰撞人文，智慧点燃青春”，新生创客们可以将想法与创意应用到了身边各种看似平常的物品：可以通过“刷脸”打开的宿舍门，躺在床上呼唤一声就会赶来的“垃圾桶”，能够自动追光、避障、唱歌的“智能盆栽”，嗨翻全场的“宿舍KTV”，还有关于智慧养殖、垃圾分类、快乐健身等许多创意作品。
+    </view>
+  </view>
 
+  <view class="weui-article__section ">
+    <view class="weui-article__p " style="color: gray">
+      活动日期：2019.06.20 活动时间：下午2:00-5:30
+    </view>
+  </view>
+
+  <view class="weui-article__section ">
+    <view class="weui-article__p " style="color: gray">
+      活动主办方：信息技术协会 活动人数：40人左右
+    </view>
+  </view>
+</view>

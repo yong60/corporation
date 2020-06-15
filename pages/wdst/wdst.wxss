@@ -1,1 +1,164 @@
 /* pages/wdst/wdst.wxss */
+/* pages/no1/no1.wxss */
+
+page {
+  background: #f5f5f5;
+}
+
+.index_title {
+  text-decoration-color: gray;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 58rpx;
+  margin: 20rpx 0rpx;
+}
+.index_item {
+  background: white;
+  padding: 35rpx 20rpx 30rpx;
+  font-size: 40rpx;
+  display: flex;
+  margin: 10rpx 20rpx;
+  border-radius: 5px;
+}
+
+.index_item .index_item_icon {
+  /* background: red; */
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0rpx 40rpx 0rpx 20rpx;
+}
+
+.t-swiper image 
+{
+  width:100%;
+}
+
+.activity {
+  background-color: white;
+  width: 750rpx;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.activity form .activity_form {
+  /* background-color: green; */
+  width: 670rpx;
+  padding: 5rpx 40rpx 0rpx;
+}
+
+.activity form  .activity_form .activity_form_title {
+  font-size: 38rpx;
+  font-weight: bolder;
+  text-align: center;
+  margin: 30rpx;
+}
+
+.activity form  .activity_form .activity_form_input {
+  padding: 30rpx 0rpx;
+  /* background-color: lightyellow; */
+  display: flex;
+  align-content: center;
+  border-top: 1px solid lightgray;
+}
+
+.activity form  .activity_form .activity_form_input input {
+  /* background: red; */
+  height: 35rpx;
+  width: 520rpx;
+  font-size: 30rpx;
+  align-content: center;
+  /* border-bottom: 1px solid gray; */
+}
+
+.activity form  .activity_form .activity_form_input input .activity_form_input_input_placeholder {
+  font-size: 30rpx;
+}
+
+.activity form  .activity_form .activity_form_input text {
+  /* background: green; */
+  font-size: 30rpx;
+  align-content: center;
+  width: 150rpx;
+}
+
+.activity form  .activity_form .activity_form_input textarea {
+  width: 640rpx;
+  background: white;
+  /* border: 1px solid lightgray; */
+  margin: 30rpx 40rpx 0rpx 20rpx;
+  font-size: 30rpx;
+}
+
+.activity form  .activity_form .activity_form_input textarea .activity_form_input_hobbit_placeholder {
+  font-size: 30rpx;
+  color: gray;
+  padding: 10rpx;
+}
+
+.activity form  .activity_form .activity_form_input radio-group {
+  height: 30rpx;
+  font-size: 30rpx;
+}
+
+.activity form  .activity_form .activity_form_input label {
+  height: 30rpx;
+  font-size: 30rpx;
+}
+
+.activity form  .activity_form .activity_form_add_button {
+  /* background: red; */
+  width: 670rpx;
+  position: fixed;
+  bottom: 30rpx;
+  /* padding: 0rpx 40rpx  */
+}
+.activity form  .activity_form .activity_form_add_button .activity_form_button {
+  margin-top: 30rpx;
+  /* width: 540rpx; */
+  background: linear-gradient(270deg, rgb(1, 247, 255) 0%, rgb(0, 252, 197) 100%);
+  color: #fff;
+}
+.press {
+  margin-top: 20rpx;
+  width: 80%;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pressimg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+.press::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+.swiper-tab{  
+  width: 100%;  
+  border-bottom: 2rpx solid #777777;  
+  text-align: center;  
+  line-height: 80rpx;} 
+  .swiper-tab-list{  font-size: 30rpx;  
+    display: inline-block;  
+    width: 33.33%;  
+    color: #777777;  
+  }  
+.on{ color: #da7c0c;  
+  border-bottom: 5rpx solid #da7c0c;}  
+
+  .swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; } 
+.swiper-box view{  
+  text-align: center;  
+}  
+
+
+

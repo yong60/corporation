@@ -10,14 +10,15 @@
     "pages/xxjs/xxjs",
     "pages/tw/tw",
     "pages/logs/logs",
-    "pages/modify/modify"
+    "pages/modify/modify",
+    "pages/wdst/wdst"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0ef",
     "navigationBarTitleText": "社团助手",
     "navigationBarTextStyle": "black",
-    "navigationStyle":"default"
+    "navigationStyle": "default"
   },
   "tabBar": {
     "color": "#666666",

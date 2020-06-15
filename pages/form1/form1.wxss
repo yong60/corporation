@@ -1,36 +1,6 @@
-/* pages/wdst/wdst.wxss */
-/* pages/no1/no1.wxss */
-
+/* pages/form1/form1.wxss */
 page {
-  background: #f5f5f5;
-}
-
-.index_title {
-  text-decoration-color: gray;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 58rpx;
-  margin: 20rpx 0rpx;
-}
-.index_item {
-  background: white;
-  padding: 35rpx 20rpx 30rpx;
-  font-size: 40rpx;
-  display: flex;
-  margin: 10rpx 20rpx;
-  border-radius: 5px;
-}
-
-.index_item .index_item_icon {
-  /* background: red; */
-  width: 50rpx;
-  height: 50rpx;
-  margin: 0rpx 40rpx 0rpx 20rpx;
-}
-
-.t-swiper image 
-{
-  width:100%;
+  background-color: #f5f5f5;
 }
 
 .activity {

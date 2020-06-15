@@ -10,7 +10,13 @@
     "pages/xxjs/xxjs",
     "pages/tw/tw",
     "pages/logs/logs",
-    "pages/modify/modify"
+    "pages/modify/modify",
+    "pages/wdst/wdst",
+    "pages/act1/act1",
+    "pages/act2/act2",
+    "pages/act3/act3",
+    "pages/act4/act4",
+    "pages/form1/form1"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -35,13 +41,13 @@
         "iconPath": "images/act1.png",
         "selectedIconPath": "images/act2.png",
         "pagePath": "pages/no2/no2",
-        "text": "活动"
+        "text": "表格"
       },
       {
         "iconPath": "images/chat1.png",
         "selectedIconPath": "images/chat2.png",
         "pagePath": "pages/no3/no3",
-        "text": "社群"
+        "text": "活动"
       },
       {
         "iconPath": "images/u1.png",

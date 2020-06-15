@@ -36,6 +36,21 @@ Page({
  
   getUserInfo: function (e) {
     this.setUserInfo(e.detail.userInfo);
+    if(!e.detail.userInfo){
+      wx.getStorage({
+        key: 'openid',
+        success (res) {
+          console.log(res.data)
+        },
+        fail(){
+          wx.showToast({
+            title: '请下拉刷新',
+            icon: 'success',
+            duration: 2000
+          })
+        }
+      })
+    }
   },
 
   userid:function(){
@@ -122,11 +137,6 @@ Page({
 
   setUserInfo: function (userInfo) {
     if (userInfo != null) {
-      wx.showToast({
-        title: '请下拉刷新',
-        icon: 'success',
-        duration: 2000
-      })
       app.globalData.userInfo = userInfo
       this.setData({
         userInfo: userInfo,

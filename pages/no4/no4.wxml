@@ -6,12 +6,12 @@
       <text class="userinfo-nickname">未知用户</text>
     </view>
     <button class="login-button head-height" open-type="getUserInfo" 
-    bindgetuserinfo="getUserInfo" bindtap="userid"> 获取头像昵称 </button>
+    bindgetuserinfo="getUserInfo" bindtap="userid2"> 获取头像昵称 </button>
   </block>
 
   <block wx:else>
     <view class="userinfo">
-      <image bindtap="userid" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <image bindtap="userid2" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </view>
   </block>

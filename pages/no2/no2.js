@@ -21,16 +21,16 @@ Page({
       }
     ],
     skills: [{
-        name: '1',
-        value: '1'
+      name: '通信学院学生会',
+        value: '通信学院学生会'
       },
       {
-        name: '2',
-        value: '2'
+        name: '通信学院团委',
+        value: '通信学院团委'
       },
       {
-        name: '3',
-        value: '3'
+        name: '信息技术协会',
+        value: '信息技术协会'
       },
     ],
     opinion: ''

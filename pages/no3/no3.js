@@ -31,5 +31,26 @@ Page( {
         currentTab: e.target.dataset.current  
       })  
     }  
+  },
+
+  create:function(){
+    wx.getStorage({
+      key: 'openid',
+      success(res){
+        if(res.data=='ozBBe5QcsMgwiQoYaBjgGSKTPRBw'||res.data=='ozBBe5VcaNYR-RJb6XLbCMVrUqwM'){
+          wx.navigateTo({
+            url: '../form1/form1',
+          })
+        }
+        else{
+          wx.showToast({
+            title: '抱歉，您还没有权限新建活动，请与社团负责人联系。',
+            icon: 'none',
+            duration: 2000
+          })
+        }
+      }
+    })
   }
+
 })  

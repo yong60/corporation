@@ -8,8 +8,9 @@ page {
   text-decoration-color: gray;
   font-weight: bolder;
   text-align: center;
-  font-size: 58rpx;
+  font-size: 20px;
   margin: 20rpx 0rpx;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .index_item {
   background: white;

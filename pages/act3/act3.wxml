@@ -16,13 +16,15 @@
 
   <view class="weui-article__section " style="color: gray">
     <view class="weui-article__p ">
-      活动日期：2020.03.10（招募中） 活动时间：每天任意时段
+      活动日期：2020.03.10（招募中） 
+      活动时间：每天任意时段
     </view>
   </view>
 
   <view class="weui-article__section " style="color: gray">
     <view class="weui-article__p ">
-      活动主办方：通信学院团委 活动人数：300人左右
+      活动主办方：通信学院团委 
+      活动人数：300人左右
     </view>
   </view>
 </view>

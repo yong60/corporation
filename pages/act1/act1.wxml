@@ -16,13 +16,15 @@
 
   <view class="weui-article__section">
     <view class="weui-article__p " style="color: gray">
-      活动日期：2019.10.8-2019.12.8 活动时间：早上6:00-7:30
+      活动日期：2019.10.8-2019.12.8 
+      活动时间：早上6:00-7:30
     </view>
   </view>
 
   <view class="weui-article__section">
     <view class="weui-article__p " style="color: gray">
-      活动主办方：通信学院学生会 活动人数：60人左右
+      活动主办方：通信学院学生会 
+      活动人数：60人左右
     </view>
   </view>
 </view>

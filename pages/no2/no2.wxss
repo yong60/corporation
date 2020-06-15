@@ -112,7 +112,7 @@ page {
   border: 0; 
 }
 .swiper-tab{  
-  width: 100%;  
+  width: 750rpx; 
   border-bottom: 2rpx solid #777777;  
   text-align: center;  
   line-height: 80rpx;} 

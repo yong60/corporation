@@ -117,6 +117,18 @@
 						<text>班级：</text>
 						<input name="name" value="" placeholder="请输入班级" placeholder-class="activity_form_input_input_placeholder"></input>
 					</view>
+					<view class="activity_form_input">
+						<text>活动时间：</text>
+						<input name="name" value="" placeholder="请输入时间" placeholder-class="activity_form_input_input_placeholder"></input>
+					</view>
+					<view class="activity_form_input">
+						<text>活动人数：</text>
+						<input name="name" value="" placeholder="请输入人数" placeholder-class="activity_form_input_input_placeholder"></input>
+					</view>
+					<view class="activity_form_input">
+						<text>活动日期：</text>
+						<input name="name" value="" placeholder="请输入日期" placeholder-class="activity_form_input_input_placeholder"></input>
+					</view>
   		<view class="activity_form_button">
         <button bindtap="submit" class="press" form-type="submit" hover-class="plain-hover">
           <view>提交</view>

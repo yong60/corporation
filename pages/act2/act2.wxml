@@ -16,13 +16,15 @@
 
   <view class="weui-article__section ">
     <view class="weui-article__p " style="color: gray">
-      活动日期：2019.06.20 活动时间：下午2:00-5:30
+      活动日期：2019.06.20 
+      活动时间：下午2:00-5:30
     </view>
   </view>
 
   <view class="weui-article__section ">
     <view class="weui-article__p " style="color: gray">
-      活动主办方：信息技术协会 活动人数：40人左右
+      活动主办方：信息技术协会 
+      活动人数：40人左右
     </view>
   </view>
 </view>

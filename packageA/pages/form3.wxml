@@ -1,0 +1,44 @@
+<!--pages/form3/form3.wxml-->
+<view class="activity">
+			<form bindsubmit="formSubmit">
+				<view class="activity_form">
+					<view class="activity_form_title">社团报名表</view>
+          					<view class="activity_form_input">
+						<text>姓名：</text>
+						<input name="name" value="{{name}}" placeholder="请输入姓名" placeholder-class="activity_form_input_input_placeholder"></input>
+					</view>
+
+					<view class="activity_form_input">
+						<text>班级：</text>
+						<input name="grade" value="{{grade}}" placeholder="请输入班级" placeholder-class="activity_form_input_input_placeholder"></input>
+					</view>
+
+					<view class="activity_form_input">
+						<text>性别：</text>
+						<radio-group name="gender" bindchange="gen">
+							<label wx:for="{{gender}}" wx:key="value">
+								<radio value="{{item.value}}" /> {{item.name}}
+							</label>
+						</radio-group>
+					</view>
+
+					<view class="activity_form_input">
+						<text>部门：</text>
+								<input name="part" value="{{part}}" placeholder="输入你想加入的部门（至少一个）" placeholder-class="activity_form_input_input_placeholder"></input>
+					</view>
+
+					<view class="activity_form_input">
+						<text>手机：</text>
+						<input name="phone" value="{{phone}}" placeholder="请输入手机号" type="number"
+						 placeholder-class="activity_form_input_input_placeholder"></input>
+					</view>
+
+
+	<view class="activity_form_button">
+        <button class="press" form-type="submit" hover-class="plain-hover">
+          <view>提交</view>
+        </button>
+      </view>
+      </view>
+      </form>
+      </view>

@@ -1,0 +1,10 @@
+<mp-cells ext-class="my-cells" title="个人资料">
+  <mp-cell value="姓名 " footer="{{username}} "></mp-cell>
+  <mp-cell value="性别 " footer="{{gender}} "></mp-cell>
+  <mp-cell value="班级 " footer="{{grade}} "></mp-cell>
+  <mp-cell value="爱好 " footer="{{love}} "></mp-cell>
+</mp-cells>
+
+<view class="weui-btn-area">
+  <button class="weui-btn" type="primary" bindtap="jump">修改资料</button>
+</view>

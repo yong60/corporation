@@ -1,0 +1,72 @@
+/* pages/no4/no4.wxss */
+
+page {
+  background: white;
+}
+
+.head-height {
+  height: 240rpx;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  background-color: #15c261;
+  align-items: center;
+}
+
+.login-button {
+  opacity: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 30rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #333;
+  font-size: 42rpx;
+}
+
+.my_information {
+  background: white;
+}
+
+.my_information .my_information_item {
+  width: 100%;
+  display: flex;
+  font-size: 30rpx;
+  border-bottom: 1px solid #f5f5f5;
+  background-color: white;
+}
+
+.my_information .my_information_item view {
+  /* background: blue; */
+  padding: 30rpx 0rpx 40rpx 105rpx;
+}
+
+.my_information .my_information_item image {
+  /* background: gray; */
+  height: 65rpx;
+  width: 80rpx;
+  position: absolute; /* 要约束所在位置的子元素的位置要设置成绝对 */
+  right: 0; /* 靠右调节 */
+  padding: 20rpx 10rpx;
+}
+
+.my_information.my_information_item::after{
+  border: 0;
+}

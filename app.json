@@ -1,22 +1,55 @@
 {
   "pages": [
+    "pages/login/main",
+    "pages/index/main",
+    "pages/contact/main",
     "pages/no1/no1",
-    "pages/no2/no2",
     "pages/no3/no3",
     "pages/no4/no4",
-    "pages/wo1/wo1",
-    "pages/wo2/wo2",
-    "pages/xsh/xsh",
-    "pages/xxjs/xxjs",
-    "pages/tw/tw",
-    "pages/logs/logs",
-    "pages/modify/modify",
-    "pages/wdst/wdst",
-    "pages/act1/act1",
-    "pages/act2/act2",
-    "pages/act3/act3",
-    "pages/act4/act4",
-    "pages/form1/form1"
+    "pages/own/main",
+    "pages/chat/main",
+    "pages/call/main",
+    "pages/search/main",
+    "pages/create/main",
+    "pages/members/main",
+    "pages/system/main",
+    "pages/user-profile/main",
+    "pages/group-profile/main",
+    "pages/groups/main",
+    "pages/blacklist/main",
+    "pages/profile/main",
+    "pages/update-profile/main"
+  ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/no1",
+        "pages/no3",
+        "pages/no4",
+        "pages/xsh",
+        "pages/xxjs",
+        "pages/tw",
+        "pages/logs",
+        "pages/modify",
+        "pages/wdst",
+        "pages/act1",
+        "pages/act2",
+        "pages/act3",
+        "pages/act4",
+        "pages/form1",
+        "pages/form2",
+        "pages/form3",
+        "pages/person",
+        "pages/us"
+      ]
+    },
+    {
+      "root": "packageB",
+      "pages": [
+        "pages/no1"
+      ]
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,26 +59,32 @@
     "navigationStyle": "default"
   },
   "tabBar": {
-    "color": "#666666",
-    "selectedColor": "#000000",
+    "color": "#000000",
+    "backgroundColor": "#ededed",
+    "selectedColor": "#006fff",
     "borderStyle": "white",
-    "backgroundColor": "#ffffff",
     "list": [
+      {
+        "text": "消息",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/theme/chat.png",
+        "selectedIconPath": "static/theme/chat-theme.png"
+      },
+      {
+        "text": "通讯录",
+        "pagePath": "pages/contact/main",
+        "iconPath": "static/theme/contact.png",
+        "selectedIconPath": "static/theme/contact-theme.png"
+      },
       {
         "iconPath": "images/home1.png",
         "selectedIconPath": "images/home2.png",
         "pagePath": "pages/no1/no1",
-        "text": "首页"
+        "text": "社团"
       },
       {
         "iconPath": "images/act1.png",
         "selectedIconPath": "images/act2.png",
-        "pagePath": "pages/no2/no2",
-        "text": "表格"
-      },
-      {
-        "iconPath": "images/chat1.png",
-        "selectedIconPath": "images/chat2.png",
         "pagePath": "pages/no3/no3",
         "text": "活动"
       },
@@ -55,9 +94,12 @@
         "pagePath": "pages/no4/no4",
         "text": "我的"
       }
-    ]
+    ],
+    "position": "bottom"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
-
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap92.json"
 }

@@ -1,8 +1,8 @@
 <!--pages/no4/no4.wxml-->
 <view class='head head-height'>
-  <block wx:if="{{!hasUserInfo && canIUse}}">
+<block wx:if="{{!hasUserInfo && canIUse}}">
     <view class="userinfo">
-      <image class="userinfo-avatar" src="../../images/unknown.png" mode="cover"></image>
+      <image class="userinfo-avatar" src="https://www.toilet-mis.cn/images/unknown.png" mode="cover"></image>
       <text class="userinfo-nickname">未知用户</text>
     </view>
     <button class="login-button head-height" open-type="getUserInfo" 
@@ -14,21 +14,46 @@
       <image bindtap="userid2" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </view>
-  </block>
-
+     </block>
 </view>
 
 
 <view class="my_information">
-  <navigator class="my_information_item" url="../wdst/wdst">
+  <button class="my_information_item" bindtap="wdst">
     <view>我的社团</view>
-    <image class="index_item_icon" mode="scaleToFill" src="../../images/arrow-drop-right-line.png" />
-  </navigator>
+    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  </button>
 
 
-  <navigator class="my_information_item" url="../person/person">
+  <button class="my_information_item" bindtap="grzl">
     <view>个人资料</view>
-    <image class="index_item_icon" mode="scaleToFill" src="../../images/arrow-drop-right-line.png" />
-  </navigator>
+    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  </button>
+
+<button open-type="feedback" class="my_information_item">
+    <view>意见反馈</view>
+    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  </button>
+
+  <button open-type="contact" class="my_information_item">
+    <view>联系客服</view>
+    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  </button>
+
+<button open-type="openSetting" class="my_information_item">
+    <view>授权设置</view>
+    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  </button>
+
+  <button class="my_information_item" bindtap="us">
+    <view>关于我们</view>
+    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  </button>
+
+  <button class="my_information_item" bindtap="login">
+    <view>退出登录</view>
+    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  </button>
+
 </view>
 

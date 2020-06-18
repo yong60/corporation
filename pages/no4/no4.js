@@ -53,6 +53,24 @@ Page({
     }
   },
 
+  wdst:function(){
+    wx.navigateTo({
+      url: '/packageA/pages/wdst',
+    })
+  },
+
+  grzl:function(){
+    wx.navigateTo({
+      url: '/packageA/pages/person',
+    })
+  },
+
+  us:function(){
+    wx.navigateTo({
+      url: '/packageA/pages/us',
+    })
+  },
+
   userid:function(){
     wx.login({
       success (res) {
@@ -131,6 +149,22 @@ Page({
       },
       fail: function (error) {
         console.log('login failed ' + error);
+      }
+    })
+  },
+
+  login:function(){
+    wx.showModal({
+      title: '提示',
+      content: '确定要返回登录界面吗',
+      success (res) {
+        if (res.confirm) {
+          wx.navigateTo({
+            url: '/pages/login/main',
+          })
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
       }
     })
   },

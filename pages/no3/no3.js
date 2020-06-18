@@ -39,7 +39,7 @@ Page( {
       success(res){
         if(res.data=='ozBBe5QcsMgwiQoYaBjgGSKTPRBw'||res.data=='ozBBe5VcaNYR-RJb6XLbCMVrUqwM'){
           wx.navigateTo({
-            url: '../form1/form1',
+            url: '/packageA/pages/form1',
           })
         }
         else{

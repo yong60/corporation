@@ -7,18 +7,18 @@
 
 <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
 	<swiper-item>
-		<navigator url="../act1/act1" class="index_item">
+		<navigator url="/packageA/pages/act1" class="index_item">
 			<image class="index_item_icon" src="https://www.toilet-mis.cn/images/no1.jpg" />
 			<view>阳光晨跑（已结束）</view>
 		</navigator>
-		<navigator class="index_item" url="../act2/act2">
+		<navigator class="index_item" url="/packageA/pages/act2">
 			<image class="index_item_icon" src="https://www.toilet-mis.cn/images/no2.jpg" />
 			<view>创客大赛（已结束）</view>
 		</navigator>
 	</swiper-item>
 
 	<swiper-item>
-		<navigator class="index_item" url="../act3/act3">
+		<navigator class="index_item" url="/packageA/pages/act3">
 			<image class="index_item_icon" src="https://www.toilet-mis.cn/images/no3.png" />
 			<view>青年大学习（招募中）</view>
 		</navigator>

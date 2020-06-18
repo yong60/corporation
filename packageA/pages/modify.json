@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "修改",
+    "component": true,
+    "usingComponents": {
+      "mp-cells": "/miniprogram_npm/weui-miniprogram/cells/cells",
+      "mp-cell": "/miniprogram_npm/weui-miniprogram/cell/cell"
+    }
+
+}

@@ -1,0 +1,6 @@
+/* pages/form1/form1.wxss */
+page {
+  background-color: white;
+}
+
+

@@ -1,4 +1,4 @@
-/* pages/no1/no1.wxss */
+/* pages/no1/no1.wxss *//* pages/no1/no1.wxss */
 
 page {
   background: #f5f5f5;
@@ -8,9 +8,8 @@ page {
   text-decoration-color: gray;
   font-weight: bolder;
   text-align: center;
-  font-size: 20px;
+  font-size: 58rpx;
   margin: 20rpx 0rpx;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .index_item {
   background: white;
@@ -22,7 +21,7 @@ page {
 }
 
 .index_item .index_item_icon {
-  /* background: red; */
+  /*background: red; */
   width: 50rpx;
   height: 50rpx;
   margin: 0rpx 40rpx 0rpx 20rpx;

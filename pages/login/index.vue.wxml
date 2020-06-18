@@ -1,0 +1,37 @@
+<template name="67b265a0">
+<view class="_div data-v-1532f6f5 counter-warp">
+<view class="_div data-v-1532f6f5 header">
+<view class="_div data-v-1532f6f5 header-content">
+<image src="https://www.toilet-mis.cn/images/bistu.jpg" class="_img data-v-1532f6f5 icon">
+</image> 
+<view class="_div data-v-1532f6f5 text">
+<view class="_div data-v-1532f6f5 text-header">团战发动机</view> 
+<view class="_div data-v-1532f6f5 text-content">高效率的社团管理工具</view>
+</view>
+</view>
+</view> 
+<picker class="_picker data-v-1532f6f5 picker" range="{{userIDList}}" value="{{selectedIndex}}" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+<view class="_div data-v-1532f6f5 cell">
+<view class="_div data-v-1532f6f5 choose">用户</view> 
+<view class="_div data-v-1532f6f5">
+        {{userIDList[selectedIndex]}}
+        <i-icon type="enter" class="_i-icon data-v-1532f6f5"></i-icon>
+        </view>
+        </view>
+        </picker>
+
+        <button hover-class="clicked" loading="{{loading}}" class="_button data-v-1532f6f5 login-button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" 
+        open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        登录</button>
+
+        <text>\n</text>
+        <button hover-class="clicked" 
+        class="_button data-v-1532f6f5 login-button" open-type="contact">联系管理员</button>
+        <text>\n</text>
+        <navigator open-type="switchTab" url="/pages/no1/no1" 
+        hover-class="clicked" class="guest">
+        <view>游客登录</view>
+        </navigator>
+
+        </view>
+        </template>

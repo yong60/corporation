@@ -1,0 +1,39 @@
+<!--pages/wdst/wdst.wxml-->
+<view class="activity_form_button">
+<text>\n</text>
+<button bindtap="stor" class="press" hover-class="plain-hover">查询我的社团</button>
+</view>
+
+<text>\n</text>
+<block wx:if="{{xsh}}">
+<view wx:if="{{xsh}}">
+<navigator url="/packageA/pages/xsh" class="index_item" wx:if="{{xsh!=0}}">
+  <image wx:if="{{xsh}}" class="index_item_icon" src="https://www.toilet-mis.cn/images/no1.jpg" />
+  <view wx:if="{{xsh}}">通信学院学生会</view>
+</navigator>
+</view>
+</block>
+
+<block wx:if="{{txtw}}">
+<view wx:if="{{txtw}}">
+<navigator class="index_item" url="/packageA/pages/tw" wx:if="{{txtw!=0}}">
+  <image wx:if="{{txtw}}" class="index_item_icon" src="https://www.toilet-mis.cn/images/no3.png" />
+  <view wx:if="{{txtw}}">通信学院团委</view>
+</navigator>
+</view>
+</block>
+
+<block wx:if="{{xxjs}}">
+<view wx:if="{{xxjs}}">
+<navigator class="index_item" url="/packageA/pages/xxjs" wx:if="{{xxjs!=0}}">
+  <image wx:if="{{xxjs}}" class="index_item_icon" src="https://www.toilet-mis.cn/images/no2.jpg" />
+  <view wx:if="{{xxjs}}">信息技术协会</view>
+</navigator>
+</view>
+</block>
+<view class="weui-article">
+<view class="weui-article__h1" wx:if="{{total>0}}">您还没有加入任何社团哦~</view>
+<view class="weui-article__h1" wx:if="{{none==0}}">暂时查询不到您的信息，请于管理员联系~</view>
+<button wx:if="{{none==0}}" class="press" hover-class="plain-hover"
+  open-type="contact">联系客服</button>
+</view>

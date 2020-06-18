@@ -1,0 +1,30 @@
+<!--packageA/pages/us.wxml-->
+<view class="weui-article">
+  <view class="weui-article__h1">团队介绍</view>
+  <view class="weui-article__section">
+  <view class="weui-article__p ">
+        团队宗旨：为人民服务
+      </view>
+      <view class="weui-article__p ">
+        特别鸣谢：WeUI，腾讯云IM
+      </view>
+      <view class="weui-article__p ">
+        联系我们：zyxhcwjhh@qq.com
+      </view>
+      <view class="weui-article__p ">
+        界面设计：高乙峰
+      </view>
+      <view class="weui-article__p ">
+        即时通信：黄雅琦
+      </view>
+      <view class="weui-article__p ">
+        文字资料：伍泉旭
+      </view>
+      <view class="weui-article__p ">
+        后端开发：郑镛
+      </view>
+      <view class="weui-article__p ">
+        GitHub：yong60/corporation
+      </view>
+</view>
+</view>

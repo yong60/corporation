@@ -1,3 +1,4 @@
+<!--pages/no1/no1.wxml-->
 <!--index.wxml-->
   <swiper class="t-swiper"indicator-dots="{{indicatorDots}}"indicator-active-color="{{color}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:{{height}}">
   <block wx:for="{{img}}" wx:key="">
@@ -16,17 +17,17 @@
 
 <view class="index_title">校内社团介绍</view>
 
-<navigator url="../xsh/xsh" class="index_item">
+<navigator url="/packageA/pages/xsh" class="index_item">
   <image class="index_item_icon" src="https://www.toilet-mis.cn/images/no1.jpg" />
   <view>通信学院学生会</view>
 </navigator>
 
-<navigator class="index_item" url="../tw/tw">
+<navigator class="index_item" url="/packageA/pages/tw">
   <image class="index_item_icon" src="https://www.toilet-mis.cn/images/no3.png" />
   <view>通信学院团委</view>
 </navigator>
 
-<navigator class="index_item" url="../xxjs/xxjs">
+<navigator class="index_item" url="/packageA/pages/xxjs">
   <image class="index_item_icon" src="https://www.toilet-mis.cn/images/no2.jpg" />
   <view>信息技术协会</view>
 </navigator>

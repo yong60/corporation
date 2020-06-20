@@ -19,39 +19,44 @@
 
 <view class="my_information">
   <button class="my_information_item" bindtap="wdst">
+      <image class="index_item_233" mode="scaleToFill" src="/images/home1.png" />
     <view>我的社团</view>
-    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+    <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
 
   <button class="my_information_item" bindtap="grzl">
+      <image class="index_item_233" mode="scaleToFill" src="/images/file-list-3-line.png" />
     <view>个人资料</view>
-    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+    <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
   <button open-type="feedback" class="my_information_item">
+      <image class="index_item_233" mode="scaleToFill" src="/images/bug-line.png" />
     <view>意见反馈</view>
-    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+    <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
   <button open-type="contact" class="my_information_item">
+      <image class="index_item_233" mode="scaleToFill" src="/images/customer-service-2-line.png" />
     <view>联系客服</view>
-    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+    <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
   <button open-type="openSetting" class="my_information_item">
+      <image class="index_item_233" mode="scaleToFill" src="/images/user-settings-line.png" />
     <view>授权设置</view>
-    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+    <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
   <button class="my_information_item" bindtap="us">
+    <image class="index_item_233" mode="scaleToFill" src="/images/team-line.png" />
     <view>关于我们</view>
-    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+    <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
-  <button class="my_information_item" bindtap="login">
-    <view>退出登录</view>
-    <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
+  <button class="my_information_item" style="margin:20rpx 0rpx" bindtap="login">
+    <view style="color : red">退出登录</view>
   </button>
 
 </view>

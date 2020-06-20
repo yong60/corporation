@@ -50,23 +50,31 @@ page {
   display: flex;
   font-size: 30rpx;
   border-bottom: 1px solid #f5f5f5;
-  background-color: whitesmoke;
+  /* background-color: green; */
 }
 
 .my_information .my_information_item view {
   /* background: blue; */
-  padding: 30rpx 0rpx 40rpx 105rpx;
+  padding: 30rpx 0rpx 40rpx 30rpx;
 }
 
-.my_information .my_information_item image {
+.my_information .my_information_item .index_item_icon {
   /* background: gray; */
   height: 65rpx;
   width: 80rpx;
   position: absolute; /* 要约束所在位置的子元素的位置要设置成绝对 */
   right: 0; /* 靠右调节 */
-  padding: 40rpx 0rpx 40rpx 105rpx;
+  padding: 40rpx 0rpx 40rpx 0rpx;
 }
 
 .my_information.my_information_item::after{
   border: 0;
+}
+.index_item_233 {
+  /* background: yellowgreen; */
+    height: 65rpx;
+  width: 65rpx;
+  /* position: absolute; /* 要约束所在位置的子元素的位置要设置成绝对 */
+  /* left: 0; 靠右调节; */
+  margin: 40rpx 0rpx 40rpx 50rpx;
 }

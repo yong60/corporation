@@ -1,12 +1,11 @@
 <!--pages/no4/no4.wxml-->
 <view class='head head-height'>
-<block wx:if="{{!hasUserInfo && canIUse}}">
+  <block wx:if="{{!hasUserInfo && canIUse}}">
     <view class="userinfo">
       <image class="userinfo-avatar" src="https://www.toilet-mis.cn/images/unknown.png" mode="cover"></image>
       <text class="userinfo-nickname">未知用户</text>
     </view>
-    <button class="login-button head-height" open-type="getUserInfo" 
-    bindgetuserinfo="getUserInfo" bindtap="userid2"> 获取头像昵称 </button>
+    <button class="login-button head-height" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="userid2"> 获取头像昵称 </button>
   </block>
 
   <block wx:else>
@@ -14,7 +13,7 @@
       <image bindtap="userid2" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </view>
-     </block>
+  </block>
 </view>
 
 
@@ -30,7 +29,7 @@
     <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
   </button>
 
-<button open-type="feedback" class="my_information_item">
+  <button open-type="feedback" class="my_information_item">
     <view>意见反馈</view>
     <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
   </button>
@@ -40,7 +39,7 @@
     <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
   </button>
 
-<button open-type="openSetting" class="my_information_item">
+  <button open-type="openSetting" class="my_information_item">
     <view>授权设置</view>
     <image class="index_item_icon" mode="scaleToFill" src="https://www.toilet-mis.cn/images/arrow-drop-right-line.png" />
   </button>
@@ -56,4 +55,3 @@
   </button>
 
 </view>
-

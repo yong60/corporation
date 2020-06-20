@@ -4,9 +4,7 @@
 }
 
 .guest {
-  background: grey;
   color: #fff;
-  padding: 35rpx 20rpx 30rpx;
   text-align: center;
   font-size: 40rpx;
   width: auto;
@@ -15,10 +13,8 @@
 }
 
 .index_item .index_item_icon {
-  /* background: red; */
   width: 1%;
   height: 1%;
-  /*margin: 0rpx 40rpx 0rpx 20rpx;*/
 }
 
 .counter-warp.data-v-1532f6f5 {

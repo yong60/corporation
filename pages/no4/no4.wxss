@@ -64,7 +64,7 @@ page {
   width: 80rpx;
   position: absolute; /* 要约束所在位置的子元素的位置要设置成绝对 */
   right: 0; /* 靠右调节 */
-  padding: 20rpx 10rpx;
+  padding: 40rpx 0rpx 40rpx 105rpx;
 }
 
 .my_information.my_information_item::after{

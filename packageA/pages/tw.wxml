@@ -4,13 +4,13 @@
   <view class="weui-article__h1">信息与通信工程学院团委介绍</view>
 
   <view class="weui-article__section">
-  <view class="weui-article__p ">
-        欢迎加入社团招新群：2001
-      </view>
-      <view class="weui-article__p ">
-        社团负责人为：user1
-      </view>
-      <text>\n</text>
+    <view class="weui-article__p ">
+      欢迎加入社团招新群：2001
+    </view>
+    <view class="weui-article__p ">
+      社团负责人为：user1
+    </view>
+    <text>\n</text>
     <view class="weui-article__img">
       <image src="https://s1.ax1x.com/2020/06/10/toFOVH.jpg" />
     </view>
@@ -65,5 +65,8 @@
       </view>
     </view>
   </view>
-  <button bindtap="baoming" class="press" hover-class="plain-hover">我要报名</button>
+
+  <view class="introduction_add_btn">
+    <button class="introduction_btn" bindtap="baoming" class="press" hover-class="plain-hover">我要报名</button>
+  </view>
 </view>

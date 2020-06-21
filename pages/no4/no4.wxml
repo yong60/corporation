@@ -18,6 +18,12 @@
 
 
 <view class="my_information">
+<button class="my_information_item" bindtap="dyxx">
+      <image class="index_item_233" mode="scaleToFill" src="https://www.toilet-mis.cn/images/home1.png" />
+    <view>订阅消息</view>
+    <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
+  </button>
+
   <button class="my_information_item" bindtap="wdst">
       <image class="index_item_233" mode="scaleToFill" src="/images/home1.png" />
     <view>我的社团</view>

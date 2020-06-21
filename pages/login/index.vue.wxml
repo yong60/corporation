@@ -23,12 +23,13 @@
     <button hover-class="clicked" loading="{{loading}}" class="_button data-v-1532f6f5 login-button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
       登录</button>
 
-    <text>\n</text>
-    <button hover-class="clicked" class="_button data-v-1532f6f5 login-button" open-type="contact">联系管理员</button>
-    <text>\n</text>
+<text>\n</text>
     <navigator open-type="switchTab" url="/pages/no1/no1" hover-class="clicked" class="guest">
       <button hover-class="clicked" class="_button data-v-1532f6f5 login-button">游客登录</button>
     </navigator>
+
+    <text>\n</text>
+    <button hover-class="clicked" class="_button data-v-1532f6f5 login-button" open-type="contact">联系管理员</button>
 
   </view>
 </template>

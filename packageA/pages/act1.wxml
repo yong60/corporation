@@ -28,5 +28,9 @@
       活动人数：60人左右
     </view>
   </view>
-  <button class="press2" disabled="true">报名已结束</button>
+  <view class="introduction_add_btn">
+    <button disabled="{{status}}" class="introduction_btn" bindtap="baoming" class="press" hover-class="plain-hover">{{inform}}
+    </button>
+  </view>
+
 </view>

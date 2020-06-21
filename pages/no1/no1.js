@@ -19,6 +19,18 @@ Page({
     height:''
     //swiper高度
   },
+
+  onLoad:function(){
+    console.log(app.globalData.youke)
+    if(app.globalData.youke==1){
+      wx.showToast({
+        title: '游客登录仅供浏览社团信息',
+        icon:"none",
+        duration:2000
+      })
+    }
+  },
+
   goheight:function (e) {
     var width = wx.getSystemInfoSync().windowWidth
     //获取可使用窗口宽度

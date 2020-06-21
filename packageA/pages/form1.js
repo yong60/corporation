@@ -2,12 +2,13 @@ Page({
   //页面的初始数据
   data: {
     activity:'',
-            name: '',
-            corporation: '',
-            time: '',
-            people: '',
-            date:'',
-            phone:''
+    name: '',
+    corporation: '',
+    time: '',
+    people: '',
+    date:'',
+    phone:'',
+    introducion:''
   },
 
   formSubmit: function(e) {
@@ -22,7 +23,8 @@ Page({
         time: e.detail.value.time,
         people: e.detail.value.people,
         date:e.detail.value.date,
-        phone:e.detail.value.phone
+        phone:e.detail.value.phone,
+        introducion:e.detail.value.introducion
       },
       success(res){
         console.log(res.data)
@@ -53,7 +55,8 @@ Page({
             time: '',
             people: '',
             date:'',
-            phone:''
+            phone:'',
+            introducion:''
           })
         }
       }

@@ -108,7 +108,10 @@ global.webpackJsonpMpvue([9],
               userID:t,
               userSig:Object(c.b)(this.userIDList[this.selectedIndex]).userSig
             }).
-            then(function(){wx.switchTab({url:"../index/main"})})
+            then(function(){
+              wx.switchTab({url:"../index/main"})
+              app.globalData.youke = 0
+            })
             .catch(function(){e.loading=!1})
           },
           choose:function(t){

@@ -37,18 +37,33 @@ Page( {
     wx.getStorage({
       key: 'openid',
       success(res){
-        if(res.data=='ozBBe5QcsMgwiQoYaBjgGSKTPRBw'||res.data=='ozBBe5VcaNYR-RJb6XLbCMVrUqwM'){
-          wx.navigateTo({
-            url: '/packageA/pages/form1',
-          })
-        }
-        else{
-          wx.showToast({
-            title: '抱歉，您还没有权限新建活动，请与社团负责人联系。',
-            icon: 'none',
-            duration: 2000
-          })
-        }
+        wx.request({
+          url: 'https://www.toilet-mis.cn/create.php',
+          data:{
+            openid:res.data
+          },
+          success:function(res){
+            if(res.data==1){
+              wx.showToast({
+                title: '身份验证成功',
+                icon:'success',
+                duration:1500
+              })
+              setTimeout(function(){
+                wx.navigateTo({
+                  url: '/packageA/pages/form1',
+                })
+              }, 1500);
+            }
+            else{
+              wx.showToast({
+                title: '抱歉，您还没有权限新建活动，请与管理员联系。',
+                icon: 'none',
+                duration: 2000
+              })
+            }
+          }
+        })
       }
     })
   }

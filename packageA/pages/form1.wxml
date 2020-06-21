@@ -39,6 +39,11 @@
 						<input name="phone" value="{{people}}" placeholder="请输入手机号"  type="number" placeholder-class="activity_form_input_input_placeholder"></input>
 					</view>
 
+					<view class="activity_form_input">
+						<text>简介：</text>
+						<textarea name='introduction' value="{{introduction}}" placeholder="请输入活动介绍" placeholder-class="activity_form_input_input_placeholder"></textarea>
+					</view>
+
 
   		<view class="activity_form_button">
         <button class="press" form-type="submit" hover-class="plain-hover">

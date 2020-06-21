@@ -25,6 +25,12 @@
 	</swiper-item>
 
 	<swiper-item>
+	<view class="weui-article__section">
+		<text>\n</text>
+    <view class="weui-article__p " style="color: blue">
+		提示：创建新活动需要管理员权限
+		</view>
+		</view>
     <button bindtap="create" class="press" hover-class="plain-hover">创建一个新活动</button>
 	</swiper-item>
 </swiper>

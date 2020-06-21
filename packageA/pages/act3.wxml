@@ -29,6 +29,9 @@
       活动人数：300人左右
     </view>
   </view>
+<view class="introduction_add_btn">
+    <button disabled="{{status}}" class="introduction_btn" bindtap="baoming" class="press" hover-class="plain-hover">{{inform}}
+    </button>
+  </view>
 
-  <button bindtap="join" class="press" hover-class="plain-hover">我要报名</button>
 </view>

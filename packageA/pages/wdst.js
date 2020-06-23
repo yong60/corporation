@@ -195,6 +195,8 @@ Page({
                 }
               }
             })
+      },
+      fail:function(){
         wx.showToast({
           title: '账号异常，请尝试重新登录',
           icon: 'none',

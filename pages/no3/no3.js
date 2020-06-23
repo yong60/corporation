@@ -64,6 +64,19 @@ Page( {
             }
           }
         })
+      },
+      fail:function(){
+        app.globalData.show = 1
+        wx.showToast({
+          title: '账号异常，正在为您解决问题',
+          icon: 'none',
+          duration: 1000
+        })
+        setTimeout(function(){
+          wx.reLaunch({
+            url: '/pages/no4/no4',
+          })
+        }, 1000);
       }
     })
   }

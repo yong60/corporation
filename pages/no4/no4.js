@@ -35,6 +35,24 @@ Page({
     }
   },
  
+  onShow:function(){
+    if(!this.data.hasUserInfo && this.data.canIUse){
+      wx.showToast({
+        title: '点击问号可进行登录',
+        icon:"none",
+        duration:1500
+      })
+    }
+    if(app.globalData.show==1){
+      wx.showToast({
+        title: '点击你的头像',
+        icon:"none",
+        duration:1500
+      })
+      app.globalData.show = 0
+    }
+  },
+
   getUserInfo: function (e) {
     this.setUserInfo(e.detail.userInfo);
     if(!e.detail.userInfo){
@@ -195,10 +213,15 @@ Page({
       content: '确定要返回登录界面吗',
       success (res) {
         if (res.confirm) {
+          app.globalData.youke = 1
+          app.globalData.twice = 1
+          app.globalData.inform = 0
+          console.log(app.globalData.youke)
           wx.navigateTo({
             url: '/pages/login/main',
           })
-        } else if (res.cancel) {
+        } 
+        else if (res.cancel) {
           console.log('用户点击取消')
         }
       }

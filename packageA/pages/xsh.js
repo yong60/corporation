@@ -1,4 +1,5 @@
 // pages/xsh/xsh.js
+const app = getApp()
 Component({
   /**
    * 组件的属性列表
@@ -51,11 +52,17 @@ Component({
             })
           },
         fail(){
-          wx.showToast({
-            title: '账号异常，请尝试重新登录',
-            icon: 'none',
-            duration: 2000
+          app.globalData.show = 1
+        wx.showToast({
+          title: '账号异常，正在为您解决问题',
+          icon: 'none',
+          duration: 1000
+        })
+        setTimeout(function(){
+          wx.reLaunch({
+            url: '/pages/no4/no4',
           })
+        }, 1000);
         }
       })
     },

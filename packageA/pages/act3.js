@@ -5,7 +5,7 @@ Page({
     inform:'我要报名'
   },
 
-  join:function(){
+  baoming:function(){
     wx.navigateTo({
       url: '/packageA/pages/form2',
     })

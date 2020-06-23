@@ -20,13 +20,29 @@ Page({
     //swiper高度
   },
 
-  onLoad:function(){
+  onShow:function(){
     console.log(app.globalData.youke)
     if(app.globalData.youke==1){
-      wx.showToast({
-        title: '游客登录仅供浏览社团信息',
-        icon:"none",
-        duration:2000
+      if(app.globalData.inform==0){
+        wx.showModal({
+          title:"警告",
+          content:'游客登录将无法使用程序中的聊天和通讯录功能，仅供您浏览学校社团信息。若要重新登录可移步“我的”界面，退回到登录页面。',
+          showCancel:false,
+          confirmText:'我知道了'
+        })
+        app.globalData.inform = 1
+      }
+      wx.setTabBarItem({
+        index: 0,
+        text: '禁用',
+        iconPath: "https://www.toilet-mis.cn/images/disabled.jpg",
+        selectedIconPath:"https://www.toilet-mis.cn/images/disabled.jpg"
+      }),
+      wx.setTabBarItem({
+        index: 1,
+        text: '禁用',
+        iconPath: "https://www.toilet-mis.cn/images/disabled.jpg",
+        selectedIconPath:"https://www.toilet-mis.cn/images/disabled.jpg"
       })
     }
   },

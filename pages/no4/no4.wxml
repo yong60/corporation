@@ -30,12 +30,13 @@
     <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
-
+<!--
   <button class="my_information_item" bindtap="grzl">
       <image class="index_item_233" mode="scaleToFill" src="/images/file-list-3-line.png" />
     <view>个人资料</view>
     <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
+-->
 
   <button open-type="feedback" class="my_information_item">
       <image class="index_item_233" mode="scaleToFill" src="/images/bug-line.png" />

@@ -35,9 +35,10 @@ global.webpackJsonpMpvue([9],
           //e=this.userIDList[this.selectedIndex];
           e = "user"+app.globalData.num;
           console.log(e)
-          if(this.myInfo.userID&&e===this.myInfo.userID){
-            wx.switchTab({url:"../index/main"});}
-          else{
+          /*if(this.myInfo.userID&&e===this.myInfo.userID){
+            console.log("是不是这里")
+            wx.switchTab({url:"../index/main"});
+          }*/
             if(app.globalData.num!=100){
             wx.showToast({
               title: "为您分配的用户名是user"+app.globalData.num,
@@ -101,7 +102,8 @@ global.webpackJsonpMpvue([9],
             }
             if(this.loading=!0,this.myInfo.userID)
             return this.$store.dispatch("resetStore"),
-          void wx.$app.logout().then(function(){t.login(e)});this.login(e)}},
+          void wx.$app.logout().then(function(){t.login(e)});this.login(e)
+      },
           login:function(t){
             var e=this;
             wx.$app.login({
@@ -109,8 +111,8 @@ global.webpackJsonpMpvue([9],
               userSig:Object(c.b)(this.userIDList[this.selectedIndex]).userSig
             }).
             then(function(){
-              wx.switchTab({url:"../index/main"})
               app.globalData.youke = 0
+              wx.switchTab({url:"../index/main"})
             })
             .catch(function(){e.loading=!1})
           },
@@ -150,9 +152,9 @@ global.webpackJsonpMpvue([9],
         [t._v("登录")])],1)},
         staticRenderFns:[function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"header"},
         [e("div",{staticClass:"header-content"},
-        [e("img",{staticClass:"icon",attrs:{src:"../../../static/images/im.png"}}),this._v(" "),e("div",{staticClass:"text"},[e("div",{staticClass:"text-header"},[this._v("登录 · 即时通信")]),
+        [e("img",{staticClass:"icon",attrs:{src:"https://www.toilet-mis.cn/images/bistu.jpg"}}),this._v(" "),e("div",{staticClass:"text"},[e("div",{staticClass:"text-header"},[this._v("团战发动机")]),
         this._v(" "),e("div",{staticClass:"text-content"},
-        [this._v("体验群组聊天，视频对话等IM功能")])])])])}]};
+        [this._v("高效率的社团管理工具")])])])])}]};
         e.a=i},
         jT7l:function(t,e,s){
           "use strict";

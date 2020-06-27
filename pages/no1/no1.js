@@ -21,7 +21,7 @@ Page({
   },
 
   onShow:function(){
-    console.log(app.globalData.youke)
+    console.log("no1:"+app.globalData.youke)
     if(app.globalData.youke==1){
       if(app.globalData.inform==0){
         wx.showModal({

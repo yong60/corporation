@@ -112,6 +112,7 @@ global.webpackJsonpMpvue([9],
             }).
             then(function(){
               app.globalData.youke = 0
+              console.log("login:"+app.globalData.youke)
               wx.switchTab({url:"../index/main"})
             })
             .catch(function(){e.loading=!1})

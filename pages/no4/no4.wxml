@@ -62,7 +62,7 @@
     <image class="index_item_icon" mode="scaleToFill" src="/images/arrow-drop-right-line.png" />
   </button>
 
-  <button class="my_information_item" style="margin:20rpx 0rpx" bindtap="login">
+  <button wx:if="{{y>0}}" class="my_information_item" style="margin:20rpx 0rpx" bindtap="login">
     <view style="color : red">退出登录</view>
   </button>
 

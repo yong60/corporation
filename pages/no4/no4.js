@@ -9,7 +9,8 @@ Page({
   data: {
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    y:0,
   },
  
   /**
@@ -36,6 +37,11 @@ Page({
   },
  
   onShow:function(){
+    var that = this
+    var p = app.globalData.youke
+    that.setData({
+      y:p
+    })
     if(!this.data.hasUserInfo && this.data.canIUse){
       wx.showToast({
         title: '点击问号可进行登录',

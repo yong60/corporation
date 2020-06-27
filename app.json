@@ -53,15 +53,15 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#0ef",
+    "navigationBarBackgroundColor": "#f5f5f5",
     "navigationBarTitleText": "社团助手",
     "navigationBarTextStyle": "black",
     "navigationStyle": "default"
   },
   "tabBar": {
-    "color": "#000000",
+    "color": "white",
     "backgroundColor": "white",
-    "selectedColor": "#006fff",
+    "selectedColor": "white",
     "borderStyle": "white",
     "list": [
       {

@@ -20,7 +20,9 @@
       </view>
     </picker>
 
-    <button hover-class="clicked" loading="{{loading}}" class="_button data-v-1532f6f5 login-button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+  
+
+    <button hover-class="clicked" loading="{{loading}}" class="_button data-v-1532f6f5 login-button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" wx:if="{{password==0}}" >
       登录</button>
 
 <text>\n</text>

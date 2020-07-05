@@ -3,9 +3,20 @@ require("../../debug/GenerateTestUserSig.js")
 require("../../common/vendor.js")
 const app = getApp()
 
-
 global.webpackJsonpMpvue([9],
-  {"+1If":function(t,e){},
+
+  {"+1If":function(t,e){
+    wx.request({
+      url: 'https://www.toilet-mis.cn/sh.php',
+      data:{
+        sh:0
+      },
+      success(res){
+        app.globalData.sh = res.data
+        console.log(app.globalData.sh)
+      }
+    })
+  },
 
   GG4c:function(t,e,s){
     "use strict";
@@ -17,41 +28,77 @@ global.webpackJsonpMpvue([9],
     e.a={
       data:function()
       {
-        return{password:"",userIDList:new Array(500).fill().
-        map(function(t,e)
-        {return"user"+e}),
-        selectedIndex:1,
-        loading:!1}
+        return{
+          password:app.globalData.sh,
+          userIDList:new Array(500).fill().
+          map(function(t,e)
+          {return"user"+e}),
+          selectedIndex:0,
+          loading:!1
+        }
     },
 
-      computed:n()({},Object(a.c)({myInfo:function(t){return t.user.myInfo}})),
+      computed:n()({},Object(a.c)({
+        myInfo:function(t){
+          return t.user.myInfo
+        }
+      }
+      )
+      ),
 
       onUnload:function()
       {this.loading=!1},
 
       methods:{
         handleLogin:function(){
-          var t=this,
+          var that=this
           //e=this.userIDList[this.selectedIndex];
           e = "user"+app.globalData.num;
           console.log(e)
+          //password = app.globalData.sh;
+          //console.log(sh)
           /*if(this.myInfo.userID&&e===this.myInfo.userID){
             console.log("是不是这里")
             wx.switchTab({url:"../index/main"});
           }*/
             if(app.globalData.num!=100){
-            wx.showToast({
-              title: "为您分配的用户名是user"+app.globalData.num,
-              icon:"none",
-              duration:2000
-            })
+              if(app.globalData.num!=undefined && app.globalData.num!=-1){
+                wx.showToast({
+                  title: "为您分配的用户名是user"+app.globalData.num,
+                  icon:"none",
+                  duration:2000
+                })
+              }
+              else{
+                wx.showToast({
+                  title: '暂不提供登录服务，谢谢理解',
+                  icon:"none",
+                  duration:1500
+                })
+              }
           }
             else{
+              var that = this
               wx.showToast({
                 title: "正在为您分配用户名，请稍等",
                 icon:"none",
                 duration:2000
               })
+
+              wx.request({
+                url: 'https://www.toilet-mis.cn/sh.php',
+                data:{
+                  sh:0
+                },
+                success(res){
+                  app.globalData.sh = res.data
+                  console.log(app.globalData.sh)
+                  return{
+                    passwor:app.globalData.sh
+                  }
+                }
+              })
+
               wx.login({
                 success: function (res) {
                   console.log(res)
@@ -65,7 +112,7 @@ global.webpackJsonpMpvue([9],
                       //console.log(res)
                       if (code) {
                         wx.request({
-                          url: 'https://www.toilet-mis.cn/login3.php',
+                          url: 'https://www.toilet-mis.cn/login4.php',
                           data: {
                             code: code,
                             nick: userNick,
@@ -77,11 +124,20 @@ global.webpackJsonpMpvue([9],
                           },
                           success: function (res) {
                             app.globalData.num = res.data.num
-                            wx.showToast({
-                              title: "为您分配的用户名是user"+app.globalData.num,
-                              icon:"none",
-                              duration:2000
-                            })
+                            if(app.globalData.num!=undefined && app.globalData.num!=-1){
+                              wx.showToast({
+                                title: "为您分配的用户名是user"+app.globalData.num,
+                                icon:"none",
+                                duration:2000
+                              })
+                            }
+                            else{
+                              wx.showToast({
+                                title: '暂不提供登录服务，谢谢理解',
+                                icon:"none",
+                                duration:1500
+                              })
+                            }
                             wx.setStorageSync('num', res.data.num)
                           },
                           fail:function(){
@@ -102,7 +158,7 @@ global.webpackJsonpMpvue([9],
             }
             if(this.loading=!0,this.myInfo.userID)
             return this.$store.dispatch("resetStore"),
-          void wx.$app.logout().then(function(){t.login(e)});this.login(e)
+            void wx.$app.logout().then(function(){t.login(e)});this.login(e)
       },
           login:function(t){
             var e=this;
@@ -122,10 +178,12 @@ global.webpackJsonpMpvue([9],
           }
           }
           }
+
           },
           IOAW:function(t,e,s){
             "use strict";
-            var i={render:function(){
+            var i={
+              render:function(){
               var t=this,
               e=t.$createElement,
               s=t._self._c||e;
@@ -157,6 +215,7 @@ global.webpackJsonpMpvue([9],
         this._v(" "),e("div",{staticClass:"text-content"},
         [this._v("高效率的社团管理工具")])])])])}]};
         e.a=i},
+        
         jT7l:function(t,e,s){
           "use strict";
           var i=s("GG4c"),

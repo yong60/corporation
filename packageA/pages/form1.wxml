@@ -50,6 +50,7 @@
           <view>提交</view>
         </button>
       </view>
+			<text>\n</text>
       </view>
       </form>
       </view>

@@ -39,6 +39,17 @@ Page({
   onShow:function(){
     var that = this
     var p = app.globalData.youke
+    wx.getStorage({
+      key: 'hide',
+      success(res){
+        console.log(res.data)
+        if(res.data==1){
+          wx.hideTabBar({
+            animation: true,
+          })
+        }
+      }
+    })
     that.setData({
       y:p
     })

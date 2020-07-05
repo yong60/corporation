@@ -54,15 +54,11 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f5f5f5",
-    "navigationBarTitleText": "社团助手",
+    "navigationBarTitleText": "团战发动机",
     "navigationBarTextStyle": "black",
     "navigationStyle": "default"
   },
   "tabBar": {
-    "color": "white",
-    "backgroundColor": "white",
-    "selectedColor": "white",
-    "borderStyle": "white",
     "list": [
       {
         "text": "消息",

@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/yong60/corporation#readme",
   "dependencies": {
-    "cos-js-sdk-v5": "^0.5.26",
-    "cos-wx-sdk-v5": "^0.7.10",
+    "cos-js-sdk-v5": "^1.4.6",
+    "cos-wx-sdk-v5": "^1.4.3",
     "tim-js-sdk": "^2.7.0",
     "tim-wx-sdk": "^2.7.0",
     "weui-miniprogram": "^1.0.3"
